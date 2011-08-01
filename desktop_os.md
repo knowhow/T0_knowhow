@@ -32,9 +32,9 @@ Slijede:
 2. Windows 7 32
 3. Mac OS X 10.6 (**)
 
-## Office poslovi - linux 32
+## Office poslovi - linux 64
 
-Primarna platforma za radnika u office-u je Ubuntu/Linux
+Primarna platforma za radnika u office-u je Ubuntu/Linux 64bit
 
 Slijede:
 
