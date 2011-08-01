@@ -1,4 +1,4 @@
-# Operativni sistem
+# Desktop operativni sistemi u bring.out
 
 ## Development - Mac
 
