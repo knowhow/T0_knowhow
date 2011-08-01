@@ -10,11 +10,11 @@ http://www.smashingmagazine.com/2010/05/03/vi-editor-linux-terminal-cheat-sheet-
 
 ### MacVim
 
-dobru integraciju sa OS-om ima [MacVim](http://code.google.com/p/macvim/)
+dobru integraciju sa OS-om ima [MacVim](https://github.com/b4winckler/macvim/wiki)
 
-poziva se sa `mvim`
+poziva se sa `mvim`. specifična podešenja mvim-a se rade u `~/.gvimrc`
 
-sistem plugin-ova se može kombinovati sa console vim-om
+sve ostale stvari (pluginove i podešenja) mvim uzima iz `~/.vim`,  `~/.vimrc`
 
 
 
