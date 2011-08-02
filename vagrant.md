@@ -50,6 +50,13 @@ u `~/.vagrant/boxes/` vidimo instalirate boxove.
 
 isto dobijamo i sa box list komandom - `vagrant box list`
 
+### box template-ovi
+
+- vagrant box add base lucid64_vim73ruby_bout.box
+- vagrant box add lucid-desktop lucid-desktop.box
+
+
+
 ## kreiranje vagrant sesije 
 
 ```
