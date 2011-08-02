@@ -47,3 +47,4 @@ Slijede:
 
 (**) Windows, Mac su ciljna platforma samo za desktop aplikacije
 
+
