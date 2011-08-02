@@ -36,13 +36,14 @@ U download sekciji u vagrant nalaze se vagrant box template-ovi:
 
 Prebacimo u Downloads direktorij boxove koje želimo koristiti.
 
-dodajmo box lucid-desktop
+dodajmo box lucid-desktop:
 
-vagrant box add 'lucid-desktop' ~/Downloads/lucid-desktop.box
 ```
-[vagrant] Downloading with Vagrant::Downloaders::File...
-[vagrant] Copying box to temporary location...
-[vagrant] Extracting box...
+vagrant box add 'lucid-desktop' ~/Downloads/lucid-desktop.box
+
+  [vagrant] Downloading with Vagrant::Downloaders::File...
+  [vagrant] Copying box to temporary location...
+  [vagrant] Extracting box...
 ```
 
 u `~/.vagrant/boxes/` vidimo instalirate boxove.
@@ -63,10 +64,11 @@ Mi ćemo koristiti chef.
 
 Ako ništa ne navedemo, dobijamo sesiju koja je identičan klon baznog box-a.
 
-hernad@macan:~/vagrant/desk-lucid-1$ vagrant up
 ```
-[default] Importing base box 'lucid-desktop'...
-...
+hernad@macan:~/vagrant/desk-lucid-1$ vagrant up
+
+  [default] Importing base box 'lucid-desktop'...
+  ...
 ```
 
 Najbitnije komande:
