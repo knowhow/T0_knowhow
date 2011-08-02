@@ -60,7 +60,7 @@ vagrant --base lucid-desktop init
 ```
 
 dobijamo `Vagrantfile` koji je ruby program u kome imamo mogućnost zadavati chef ili puppet provision komande.
-Mi ćemo koristiti chef.
+Mi ćemo, kada nam to treba, koristiti chef.
 
 Ako ništa ne navedemo, dobijamo sesiju koja je identičan klon baznog box-a.
 
