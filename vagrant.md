@@ -56,7 +56,7 @@ isto dobijamo i sa box list komandom - `vagrant box list`
 mkdir desk-lucid-1
 cd desk-lucid-1
 ## ako ne navedemo base koristiće se base.box
-vagrant --base lucid-desktop init
+vagrant init lucid-desktop
 ```
 
 dobijamo `Vagrantfile` koji je ruby program u kome imamo mogućnost zadavati chef ili puppet provision komande.
