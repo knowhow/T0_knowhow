@@ -82,3 +82,9 @@ S obzirom da se radi o desktop sesiji podesimo u Vagrantfile:
 `` 
 
 
+## Bilješke
+
+- [Vagrant basebox-ovi](https://gist.github.com/1004430)
+- [recreate ubuntu udev persistent network rules - udevadm trigger](https://gist.github.com/1004326)
+- [veewee](https://gist.github.com/1000452)
+- [ubuntu konzola sa bosanskim znakovima](https://gist.github.com/1004162)
