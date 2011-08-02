@@ -9,7 +9,7 @@ Prije instalacije vagranta moramo imati instalirane:
 
 ## install
 
-``
+```
 rvm use 1.9.2
 # vagrant ver 0.7.x imaju podrsku za 4.0.x virtualbox, 0.8 za 4.1.x virtualbox
 #gem install vagrant -v=0.7.5
