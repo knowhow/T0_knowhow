@@ -4,13 +4,15 @@
 
 Prije instalacije vagranta moramo imati instalirane:
 
-- virtualbox (ver 4.0.12)
+- virtualbox (ver 4.1.0)
 - rvm
 
 ## install
 
 ``
 rvm use 1.9.2
+# vagrant ver 0.7.x imaju podrsku za 4.0.x virtualbox, 0.8 za 4.1.x virtualbox
+#gem install vagrant -v=0.7.5
 gem install vagrant
 cd ~
 mkdir vagrant
@@ -46,5 +48,37 @@ vagrant box add 'lucid-desktop' ~/Downloads/lucid-desktop.box
 u `~/.vagrant/boxes/` vidimo instalirate boxove.
 
 isto dobijamo i sa box list komandom - `vagrant box list`
+
+## kreiranje vagrant sesije 
+
+``
+mkdir desk-lucid-1
+cd desk-lucid-1
+## ako ne navedemo base koristiće se base.box
+vagrant --base lucid-desktop init
+```
+
+dobijamo `Vagrantfile` koji je ruby program u kome imamo mogućnost zadavati chef ili puppet provision komande.
+Mi ćemo koristiti chef.
+
+Ako ništa ne navedemo, dobijamo sesiju koja je identičan klon baznog box-a.
+
+hernad@macan:~/vagrant/desk-lucid-1$ vagrant up
+```
+[default] Importing base box 'lucid-desktop'...
+...
+```
+
+Najbitnije komande:
+
+- vagrant ssh - prilazimo sesiji sa ssh
+- vagrant halt - zaustavljamo sesiju
+
+S obzirom da se radi o desktop sesiji podesimo u Vagrantfile:
+
+``
+ # Boot with a GUI so you can see the screen. (Default is headless)
+ config.vm.boot_mode = :gui
+`` 
 
 
