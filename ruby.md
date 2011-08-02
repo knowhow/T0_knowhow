@@ -3,7 +3,7 @@
 
 ## Mac
 
-već inma preinstaliran 1.8.7
+već ima preinstaliran 1.8.7
 
 
 ## RVM ruby version manager
@@ -24,7 +24,7 @@ nakon toga u `~/.bash_profile` treba biti linija:
 
 Ako je nema, dodajte je.
 
-restat shella bi trebao da nam obezbjedi novu ```rvm``` komandu.
+restart shella bi trebao da nam obezbjedi novu ```rvm``` komandu.
 
 sada instaliramo ruby-je koje ćemo koristiti:
 
