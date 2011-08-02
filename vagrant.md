@@ -52,7 +52,7 @@ isto dobijamo i sa box list komandom - `vagrant box list`
 
 ## kreiranje vagrant sesije 
 
-``
+```
 mkdir desk-lucid-1
 cd desk-lucid-1
 ## ako ne navedemo base koristiće se base.box
