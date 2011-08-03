@@ -5,6 +5,7 @@
 Prije instalacije vagranta moramo imati instalirane:
 
 - virtualbox (ver 4.1.0)
+  -  hostonly interfejse vboxnet0, vboxnet1 (pogledati na virtualbox File/Preference/Network)
 - rvm
 
 ## install
@@ -12,7 +13,6 @@ Prije instalacije vagranta moramo imati instalirane:
 ```
 rvm use 1.9.2
 # vagrant ver 0.7.x imaju podrsku za 4.0.x virtualbox, 0.8 za 4.1.x virtualbox
-#gem install vagrant -v=0.7.5
 gem install vagrant
 cd ~
 mkdir vagrant
@@ -80,16 +80,9 @@ hernad@macan:~/vagrant/desk-lucid-1$ vagrant up
 
 Najbitnije komande:
 
-- vagrant ssh - prilazimo sesiji sa ssh
+- vagrant ssh - ssh pristup sesiji
 - vagrant halt - zaustavljamo sesiju
-
-S obzirom da se radi o desktop sesiji podesimo u Vagrantfile:
-
-```
- # Boot with a GUI so you can see the screen. (Default is headless)
- config.vm.boot_mode = :gui
-``` 
-
+- vagrant destroy - brisemo sesiju (brisemo sve podatke !)
 
 ## Bilješke
 
