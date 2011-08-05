@@ -8,7 +8,9 @@ Korisne komande
 
 `:set wrap/nowrap` - automatsko prelamanje dugih linija da/ne
 
-`:pwd`  - tekuđi direktorij
+`:cd` - set tekući direktoriji - npr `:cd ~/github`
+
+`:pwd`  - prikaži tekući direktorij
 
 ## normal mode
 
