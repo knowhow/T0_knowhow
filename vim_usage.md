@@ -12,7 +12,7 @@ Korisne komande
 
 ## normal mode
 
-<c-W> lijevo - desno / gore / dole  pomjeranje prozora u fokusu
+`<c-W> lijeva / desna / gore / dole strelica` -  pomjeranje prozora u fokusu
 
 
 ## NERDTree
