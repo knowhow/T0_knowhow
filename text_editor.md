@@ -1,7 +1,10 @@
-# Tekst editori za bring.out developera, sysaadmina, podršku
+# Tekst editor
 
-Primarni tekst editor je vim.
+Primarni tekst editor za bring.out developera/sysadmina/servisera je vim.
 
+On se obavezno instalira i podešava u skladu sa donjim uputama na sopstvenim radnim stanicama i serverima.
+
+Kad god je pogodno, instalira se i na radnim stanicama korisnika.
 
 ## Mac OS X
 
