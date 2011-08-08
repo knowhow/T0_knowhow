@@ -39,8 +39,6 @@ validni vimgrep izrazi:
 
 - `/not_if\|only_if/` - nađi sve fajlove koji sadrže ili `not_if` ili `only_if`
 
-## bufferi
-
 
 ## Mapiranje funkcijskih tipki
 
