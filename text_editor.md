@@ -1,4 +1,4 @@
-# vim
+# vim install
 
 
 ## cheat-sheet
@@ -17,7 +17,7 @@ poziva se sa `mvim`. specifična podešenja mvim-a se rade u `~/.gvimrc`
 sve ostale stvari (pluginove i podešenja) mvim uzima iz `~/.vim`,  `~/.vimrc`
 
 
-### instalacija na desktop
+### instalacija na desktop (mac, linux)
 
 ```
 cd ~/
@@ -31,3 +31,10 @@ cd .vim
 ./command-t_install.sh
 ./install_rc.sh
 ```
+
+
+## instalacija na windows
+
+slično kao gore, uz razlike navedene u ovom gistu:
+
+https://gist.github.com/1008292
