@@ -93,4 +93,12 @@ au! BufWritePost .vimrc source %
 Efekat je znači da se automatski po upisivanju buffera koji se zove ```.vimrc``` pokreće source komanda.
 
 Ukoliko napravim neku grešku u vimrc, odmah po snimanju imaću poruku o grešci.
- 
+
+
+## Eksterni resursi
+
+### cheat-sheet
+
+http://www.smashingmagazine.com/2010/05/03/vi-editor-linux-terminal-cheat-sheet-pdf/
+
+

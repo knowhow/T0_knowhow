@@ -1,12 +1,9 @@
-# vim install
+# Tekst editori za bring.out developera, sysaadmina, podršku
+
+Primarni tekst editor je vim.
 
 
-## cheat-sheet
-
-http://www.smashingmagazine.com/2010/05/03/vi-editor-linux-terminal-cheat-sheet-pdf/
-
-
-## Mac OS
+## Mac OS X
 
 ### MacVim
 
@@ -17,7 +14,7 @@ poziva se sa `mvim`. specifična podešenja mvim-a se rade u `~/.gvimrc`
 sve ostale stvari (pluginove i podešenja) mvim uzima iz `~/.vim`,  `~/.vimrc`
 
 
-### instalacija na desktop (mac, linux)
+### vim, instalacija pluginova i postavki (mac, linux)
 
 ```
 cd ~/
@@ -32,9 +29,17 @@ cd .vim
 ./install_rc.sh
 ```
 
+## Ubuntu/Linux
 
-## instalacija na windows
+- vim
+- vim-gtk
 
-slično kao gore, uz razlike navedene u ovom gistu:
+
+## Windows
+
+Instalirati i podesiti gvim.
+
+instalacija slična kao za unix, uz razlike navedene u ovom gistu:
 
 https://gist.github.com/1008292
+
