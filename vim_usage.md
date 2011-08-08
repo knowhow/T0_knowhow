@@ -84,4 +84,13 @@ Na željeni buffer se lociramo kucanjem b+broj buffer-a. Znači sa ```b8``` loci
 
 Ako promijenimo nešto u ```.vimrc``` onda sa ```:source ~/.vimrc``` nove komande stavljamo u funkciju bez potrebe izađi/uđi ponovo u vim.
 
+Na ovom [blogu](http://dailyvim.blogspot.com/2008/11/reload-vimrc.html Daily vim) sam našao dobru foru da uopšte ne trebam ni source komandu:
+
+```
+au! BufWritePost .vimrc source % 
+```
+
+Efekat je znači da se automatski po upisivanju buffera koji se zove ```.vimrc``` pokreće source komanda.
+
+Ukoliko napravim neku grešku u vimrc, odmah po snimanju imaću poruku o grešci.
  
