@@ -101,4 +101,8 @@ Ukoliko napravim neku grešku u vimrc, odmah po snimanju imaću poruku o grešci
 
 http://www.smashingmagazine.com/2010/05/03/vi-editor-linux-terminal-cheat-sheet-pdf/
 
+### arstechnica
 
+tag-list plugin, omnicompletion system, minibufi explorer
+
+http://arstechnica.com/open-source/guides/2009/05/vim-made-easy-how-to-get-your-favorite-ide-features-in-vim.ars
