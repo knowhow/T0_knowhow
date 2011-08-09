@@ -12,15 +12,15 @@ Korisne komande
 
 `:pwd`  - prikaži tekući direktorij
 
-`<s-ZZ>` - snimi i izað`<q!>` - izaðez snimanja 
+`<s-ZZ>` - snimi i izađi
 
-`<dd>` - bri¹i cijelu liniju  
+`<dd>` - briši cijelu liniju
 
-`</>` - tra¾i pojam `<n>` - pomjeri se na slijedeæpojam
+`</>` - traži pojam `<n>` - pomjeri se na slijedeći pojam
 
-`<c+f>` - stranica napred 
+`<c+f>` - stranica napred
 
-`<c+b>` - stranica nazad 
+`<c+b>` - stranica nazad
 
 ## normal mode
 
