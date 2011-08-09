@@ -12,6 +12,16 @@ Korisne komande
 
 `:pwd`  - prikaži tekući direktorij
 
+`<s-ZZ>` - snimi i izađi
+
+`<dd>` - briši cijelu liniju
+
+`</>` - traži pojam `<n>` - pomjeri se na slijedeći pojam
+
+`<c+f>` - stranica napred
+
+`<c+b>` - stranica nazad
+
 ## normal mode
 
 `<c-W> lijeva / desna / gore / dole strelica` -  pomjeranje prozora u fokusu
