@@ -61,7 +61,7 @@ Napomena:
 
 Dobar primjer korištenja buffer-a je kucanje ovog seta komandi:
 
-``
+```
 :ed fajl_1.txt
 :ed fajl_2.txt
 :ed fajl_3.txt
