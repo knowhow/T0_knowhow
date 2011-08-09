@@ -12,7 +12,7 @@ Korisne komande
 
 `:pwd`  - prikaži tekući direktorij
 
-`ZZ` - snimi i izađi
+`<S+zz>` - snimi i izađi
 
 `dd` - briši cijelu liniju
 
@@ -24,7 +24,7 @@ Korisne komande
 
 ## normal mode
 
-`<c-W> lijeva / desna / gore / dole strelica` -  pomjeranje prozora u fokusu
+`<C-W> lijeva / desna / gore / dole strelica` -  pomjeranje prozora u fokusu
 
 
 ## NERDTree
