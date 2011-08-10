@@ -26,6 +26,16 @@ Korisne komande
 
 `<c-W> lijeva / desna / gore / dole strelica` -  pomjeranje prozora u fokusu
 
+## selection mode
+
+
+## indent bloka (više linija) teksta
+
+http://stackoverflow.com/questions/235839/how-do-i-indent-multiple-lines-quickly-in-vi
+
+- odaberemo linije koje želimo pomjeriti
+- kucamo `>` 
+
 
 ## NERDTree
 
