@@ -52,9 +52,20 @@ isto dobijamo i sa box list komandom - `vagrant box list`
 
 ### box template-ovi
 
-- vagrant box add base lucid64_vim73ruby_bout.box
-- vagrant box add lucid-desktop lucid-desktop.box
+lista spremni vagrant box-ova:
 
+- lucid_base_1.5.box
+- lucid_desktop_1.3.box
+- maverick_desktop_1.5.box
+- natty_desktop_1.2.box
+- oneiric_desktop_1.4.box
+
+recimo da želimo instalirati samo dva box-a. base (server) i lucid_desktop:
+
+<pre>
+vagrant box add base lucid_base_1.5.box
+vagrant box add lucid-desktop lucid_desktop_1.3.box
+</pre>
 
 
 ## kreiranje vagrant sesije 
