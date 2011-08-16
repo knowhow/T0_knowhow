@@ -55,6 +55,15 @@ http://stackoverflow.com/questions/235839/how-do-i-indent-multiple-lines-quickly
 - odaberemo linije koje želimo pomjeriti
 - kucamo `>` 
 
+## Tabs
+
+http://www.catswhocode.com/blog/100-vim-commands-every-programmer-should-know
+
+- `:tabnew` - new tab
+- `gt` - show next tab
+- `:tabdo %s/foo/bar/g - execute find-replace komandu u svim tabovima
+- `:tab bal - stavi sve otvorene fajlove u tabove
+
 
 ## NERDTree
 
