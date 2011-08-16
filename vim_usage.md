@@ -62,7 +62,7 @@ http://www.catswhocode.com/blog/100-vim-commands-every-programmer-should-know
 - `:tabnew` - new tab
 - `gt` - show next tab
 - `:tabdo %s/foo/bar/g - execute find-replace komandu u svim tabovima
-- `:tab bal - stavi sve otvorene fajlove u tabove
+- `:tab ball - stavi sve otvorene fajlove u tabove
 
 
 ## NERDTree
@@ -76,6 +76,15 @@ F - prikazuj / ne prikazuj fajlove
 ? - help on/off
 
 cd - setuje se da je tekući direktorij onaj na kome smo pozicionirani
+
+### NERDTree bookmarks
+
+http://stackoverflow.com/questions/1002404/project-management-plugin-for-vim
+
+`:Bookmark proj1`
+`B` - kada smo u NERDTree kucamo za prikaz bookmark-a
+
+
 
 ## vimgrep
 
@@ -196,4 +205,8 @@ http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut
 ctags, jsctags
 
 https://gist.github.com/1132098
+
+### vimemu graphical cheat-sheet and tutirial
+
+http://www.glump.net/_media/howto/vi-vim-cheat-sheet-and-tutorial.pdf
 
