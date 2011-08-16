@@ -22,9 +22,18 @@ Korisne komande
 
 `/` - traži pojam `n` - pomjeri se na slijedeći pojam
 
-`<C+f>` - stranica naprijed
+`<c-f>` - stranica naprijed
 
-`<C+b>` - stranica nazad
+`<c-b>` - stranica nazad
+
+`<c-a>` - select all, mapirati "ggVG"
+
+<pre>
+~/.vimrc
+------------
+" select all
+nmap <c-a> ggVG
+</pre>
 
 ## INSERT mode
 
