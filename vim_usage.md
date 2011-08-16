@@ -12,6 +12,10 @@ Korisne komande
 
 `:pwd`  - prikaži tekući direktorij
 
+## normal mode
+
+`<c-W> lijeva / desna / gore / dole strelica` -  pomjeranje prozora u fokusu
+
 `ZZ` - snimi i izađi
 
 `dd` - briši cijelu liniju
@@ -22,14 +26,20 @@ Korisne komande
 
 `<C+b>` - stranica nazad
 
-## normal mode
+## INSERT mode
 
-`<c-W> lijeva / desna / gore / dole strelica` -  pomjeranje prozora u fokusu
+### CTRL-R
+
+`<C+r>` - (:help i_CTRL-R) - kada smo u insert modu kucamo ctrl+r. Pojavi nam se `"` što je znak da vim čeka naš sljedeći znak:
+
+- `%` - naziv tekućeg fajla
+- `=` - mini kalkulator - unesite ctrl+r pa nakon toga =3*2.2
+- `+` - clipboard sadržaj
+
 
 ## selection mode
 
-
-## indent bloka (više linija) teksta
+### indent bloka (više linija) teksta
 
 http://stackoverflow.com/questions/235839/how-do-i-indent-multiple-lines-quickly-in-vi
 
@@ -126,6 +136,10 @@ http://www.smashingmagazine.com/2010/05/03/vi-editor-linux-terminal-cheat-sheet-
 tag-list plugin, omnicompletion system, minibufi explorer
 
 http://arstechnica.com/open-source/guides/2009/05/vim-made-easy-how-to-get-your-favorite-ide-features-in-vim.ars
+
+### stackoverflow
+
+http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/
 
 ### tagbar, ctags
 
