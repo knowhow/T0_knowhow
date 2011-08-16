@@ -78,6 +78,38 @@ validni vimgrep izrazi:
 
 - `/not_if\|only_if/` - nađi sve fajlove koji sadrže ili `not_if` ili `only_if`
 
+## tabular plugin
+ 
+http://vimcasts.org/episodes/aligning-text-with-tabular-vim/
+
+
+Ukucaj i označi ovaj tekst:
+
+<pre>
+var video = {
+    metadata: {
+        title: "Aligning assignments"
+        h264Src: "/media/alignment.mov",
+        oggSrc: "/media/alignment.ogv"
+        posterSrc: "/media/alignment.png"
+        duration: 320,
+    }
+}
+</pre>
+
+kucaj `:Tabular/:`
+
+slično ukucaj
+
+<pre>
+one = 1
+two = 2
+three = 3
+four = 4
+</pre>
+
+kucaj `:Tabular/=`
+
 
 ## Mapiranje funkcijskih tipki
 
