@@ -210,3 +210,32 @@ https://gist.github.com/1132098
 
 http://www.glump.net/_media/howto/vi-vim-cheat-sheet-and-tutorial.pdf
 
+### vikia
+
+expression in substitute
+
+http://vim.wikia.com/wiki/Using_an_expression_in_substitute_command
+
+ubaci na početak broj linije + tab u svakoj liniji:
+
+```
+:%s/^/\=line('.')."\t"/
+```
+
+gornja komanda ali samo za opseg linija 10-20:
+
+```
+:10,20s/^/\=line('.')."\t"/
+```
+
+za linije od 10-20 setuj counter koji pocinje od 55
+
+```
+let counter=54|10,20g//let counter=counter+1|s/^/\=counter."\t"
+```
+
+izbroj sve pagrafe, pri čemu su paragrafi odijeljeni jedan od drugog sa jednom ili više praznih linija:
+
+```
+:let counter=0|1,20g/^$\n^\s*[^\s]/let counter=counter+1|+1s/^/\=counter."\t"
+```
