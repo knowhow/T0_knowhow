@@ -239,3 +239,11 @@ izbroj sve pagrafe, pri čemu su paragrafi odijeljeni jedan od drugog sa jednom 
 ```
 :let counter=0|1,20g/^$\n^\s*[^\s]/let counter=counter+1|+1s/^/\=counter."\t"
 ```
+
+## variables
+
+:let c_file = @%
+:echo c_file (=> ime tekuceg fajla npr test.coffee)
+:exe 'r !coffee -t '.c_file (izvrsi komandu 'r !coffee -t test.coffee' - učitaj u tekući buffer output ove eksterne komande)
+  
+
