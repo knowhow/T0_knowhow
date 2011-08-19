@@ -240,10 +240,23 @@ izbroj sve pagrafe, pri čemu su paragrafi odijeljeni jedan od drugog sa jednom 
 :let counter=0|1,20g/^$\n^\s*[^\s]/let counter=counter+1|+1s/^/\=counter."\t"
 ```
 
-## variables
+## exe komanda
 
+```
 :let c_file = @%
 :echo c_file (=> ime tekuceg fajla npr test.coffee)
 :exe 'r !coffee -t '.c_file (izvrsi komandu 'r !coffee -t test.coffee' - učitaj u tekući buffer output ove eksterne komande)
-  
+```  
+
+### MRU plugin
+
+Most recently used - nedavno korišteni fajlovi
+
+```MRU js``` - prikaz .js fajlova u MRU listi
+
+### search multi-line
+
+http://vim.wikia.com/wiki/Search_across_multiple_lines
+
+```/abc\_s*def/```- nađi sve "abc" iza kojih slijede nove linije ili razmaci a onda "def"
 
