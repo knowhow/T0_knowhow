@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<!-- $Id: fop.xconf 901793 2010-01-21 17:37:07Z jeremias $ -->
+
+<!--
+
+This is an example configuration file for FOP.
+This file contains the same settings as the default values
+and will have no effect if used unchanged.
+
+Relative config url's will be resolved relative to
+the location of this file.
+
+-->
+
+<!-- NOTE: This is the version of the configuration -->
+<fop version="1.0">
+
+<font-base>file:///Users/hernad/.fop/</font-base> 
+
+<fonts>
+
+	<!--
+	   <referenced-fonts>
+				<match font-family="Helvetica"/>
+				<match font-family="DejaVu.*"/>
+				<match font-family="Arial"/>
+		</referenced-fonts>
+     -->
+
+		<substitutions> 
+		
+			<substitution>
+				<from font-family="Xarial" />
+			 	<to font-family="Arial"/>
+			</substitution>
+
+			<substitution>
+				<from font-family="Times" />
+			 	<to font-family="Arial"/>
+			</substitution>
+
+			<substitution>
+				<from font-family="Times-Roman" />
+				<to font-family="Arial"/>
+			</substitution>
+			
+			<substitution>
+              <from font-family="Arial" font-weight="700..900"/>
+              <to font-family="Arial Black"/>
+            </substitution>
+
+			<substitution>
+                <from font-family="FrutigerLight"/>
+                <to font-family="Times" font-weight="bold" font-style="italic"/>
+			</substitution>
+
+          </substitutions>
+
+</fonts>
+<renderers>
+   <renderer mime="application/pdf">
+      <fonts>
+
+		<!---
+        <font metrics-url="Arial.xml" kerning="yes" embed-url="Arial.ttf">
+          <font-triplet name="Arial" style="normal" weight="normal"/>
+          <font-triplet name="Helvetica" style="normal" weight="normal"/>
+          <font-triplet name="Times-Roman" style="normal" weight="normal"/>
+        </font>
+
+		<font metrics-url="Arial Bold.xml" kerning="yes" embed-url="Arial Bold.ttf">
+          <font-triplet name="Arial" style="normal" weight="bold"/>
+          <font-triplet name="Helvetica" style="normal" weight="bold"/>
+          <font-triplet name="Times-Roman" style="normal" weight="bold"/>
+        </font>
+
+		-->
+
+		  <!-- register all the fonts found in a directory -->
+		  <directory>/Users/hernad/.fop</directory>
+
+  
+         <!-- register all the fonts found in a directory and all of its sub directories (use with care) -->
+		 <!-- <directory recursive="true">C:\MyFonts2</directory> -->
+
+         <!-- automatically detect operating system installed fonts -->
+         <!-- <auto-detect/> -->
+      </fonts>
+   </renderer>
+</renderers>
+
+</fop>
