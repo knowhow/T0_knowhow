@@ -1,0 +1,23 @@
+<!DOCTYPE QPH>
+<QPH language="bs">
+<phrase>
+    <source>Last</source>
+    <target>Prezime</target>
+</phrase>
+<phrase>
+    <source>Number</source>
+    <target>Broj</target>
+</phrase>
+<phrase>
+    <source>Type</source>
+    <target>Tip</target>
+</phrase>
+<phrase>
+    <source>Country</source>
+    <target>Država</target>
+</phrase>
+<phrase>
+    <source>Tax</source>
+    <target>Porez</target>
+</phrase>
+</QPH>
