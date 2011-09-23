@@ -1,7 +1,7 @@
 Common Public Attribution License Version 1.0 (CPAL-1.0)
 ========================================================
 
-1.	"Definitions"
+ 1)	"Definitions"
 --------------------
 
 1.0.1	"Commercial Use" means distribution or otherwise making the Covered Code available to a third party.
@@ -22,7 +22,7 @@ B.	Any new file that contains any part of the Original Code or previous Modifica
 1.11	"Source Code" means the preferred form of the Covered Code for making modifications to it, including all modules it contains, plus any associated interface definition files, scripts used to control compilation and installation of an Executable, or source code differential comparisons against either the Original Code or another well known, available Covered Code of the Contributor’s choice. The Source Code can be in a compressed or archival form, provided the appropriate decompression or de-archiving software is widely available for no charge.
 1.12	"You" (or "Your") means an individual or a legal entity exercising rights under, and complying with all of the terms of, this License or a future version of this License issued under Section 6.1. For legal entities, "You" includes any entity which controls, is controlled by, or is under common control with You. For purposes of this definition, "control" means (a) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (b) ownership of more than fifty percent (50%) of the outstanding shares or beneficial ownership of such entity.
 
-2.	Source Code License.
+ 2)	Source Code License.
 ------------------------
 
 2.1	The Initial Developer Grant. 
@@ -36,7 +36,7 @@ Subject to third party intellectual property claims, each Contributor hereby gra
 (b)	under Patent Claims infringed by the making, using, or selling of Modifications made by that Contributor either alone and/or in combination with its Contributor Version (or portions of such combination), to make, use, sell, offer for sale, have made, and/or otherwise dispose of: 1) Modifications made by that Contributor (or portions thereof); and 2) the combination of Modifications made by that Contributor with its Contributor Version (or portions of such combination).
 (Copyright © 2011 the licenses granted iNotwithstanding Section 2.2(b) above, no patent license is granted: 1) for any code that Contributor has deleted from the Contributor Version; 2) separate from the Contributor Version; 3) for infringements caused by: i) third party modifications of Contributor Version or ii) the combination of Modifications made by that Contributor with other software (except as part of the Contributor Version) or other devices; or 4) under Patent Claims infringed by Covered Code in the absence of Modifications made by that Contributor.
 
-3.	Distribution Obligations.
+ 3)	Distribution Obligations.
 -----------------------------
 
 3.1	Application of License. 
@@ -62,17 +62,17 @@ You may distribute Covered Code in Executable form only if the requirements of S
 3.7	Larger Works. 
 You may create a Larger Work by combining Covered Code with other code not governed by the terms of this License and distribute the Larger Work as a single product. In such a case, You must make sure the requirements of this License are fulfilled for the Covered Code.
 
-4.	Inability to Comply Due to Statute or Regulation.
+ 4)	Inability to Comply Due to Statute or Regulation.
 ------------------------------------------------------
 
 If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Covered Code due to statute, judicial order, or regulation then You must: (a) comply with the terms of this License to the maximum extent possible; and (b) describe the limitations and the code they affect. Such description must be included in the LEGAL file described in Section 3.4 and must be included with all distributions of the Source Code. Except to the extent prohibited by statute or regulation, such description must be sufficiently detailed for a recipient of ordinary skill to be able to understand it.
 
-5.	Application of this License.
+ 5)	Application of this License.
 ---------------------------------
 
 This License applies to code to which the Initial Developer has attached the notice in Exhibit A and to related Covered Code.
 
-6.	Versions of the License.
+ 6)	Versions of the License.
 -----------------------------
 
 6.1	New Versions.
@@ -84,12 +84,12 @@ If You create or use a modified version of this License (which you may only do i
 6.3	Derivative Works.
 If You create or use a modified version of this License (which you may only do in order to apply it to code which is not alreadf the License, You may always continue to use it under the terms of th this License.)
 
-7.	DISCLAIMER OF WARRANTY.
+ 7)	DISCLAIMER OF WARRANTY.
 ---------------------------
 
 COVERED CODE IS PROVIDED UNDER THIS LICENSE ON AN "AS IS" BASIS, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT THE COVERED CODE IS FREE OF DEFECTS, MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE COVERED CODE IS WITH YOU. SHOULD ANY COVERED CODE PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL DEVELOPER, ORIGINAL DEVELOPER OR ANY OTHER CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY COVERED CODE IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER.
 
-8.	TERMINATION.
+ 8)	TERMINATION.
 -----------------
 
 8.1	This License and the rights granted hereunder will terminate automatically if You fail to comply with terms herein and fail to cure such breach within 30 days of becoming aware of the breach. All sublicenses to the Covered Code which are properly granted shall survive any termination of this License. Provisions which, by their nature, must remain in effect beyond the termination of this License shall survive.
@@ -99,40 +99,40 @@ COVERED CODE IS PROVIDED UNDER THIS LICENSE ON AN "AS IS" BASIS, WITHOUT WARRANT
 8.3	If You assert a patent infringement claim against Participant alleging that such Participant’s Contributor Version directly or indirectly infringes any patent where such claim is resolved (such as by license or settlement) prior to the initiation of patent infringement litigation, then the reasonable value of the licenses granted by such Participant under Sections 2.1 or 2.2 shall be taken into account in determining the amount or value of any payment or license.
 8.4	In the event of termination under Sections 8.1 or 8.2 above, all end user license agreements (excluding distributors and resellers) which have been validly granted by You or any distributor hereunder prior to termination shall survive termination.
 
-9.	LIMITATION OF LIABILITY.
+ 9)	LIMITATION OF LIABILITY.
 ----------------------------
 
 UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER TORT (INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL YOU, THE INITIAL DEVELOPER, ORIGINAL DEVELOPER, ANY OTHER CONTRIBUTOR, OR ANY DISTRIBUTOR OF COVERED CODE, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON FOR ANY INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER COMMERCIAL DAMAGES OR LOSSES, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGES. THIS LIMITATION OF LIABILITY SHALL NOT APPLY TO LIABILITY FOR DEATH OR PERSONAL INJURY RESULTING FROM SUCH PARTY’S NEGLIGENCE TO THE EXTENT APPLICABLE LAW PROHIBITS SUCH LIMITATION. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THIS EXCLUSION AND LIMITATION MAY NOT APPLY TO YOU.
 
-10.	U.S. GOVERNMENT END USERS.
+ 10) U.S. GOVERNMENT END USERS.
 ------------------------------
 
 The Covered Code is a “commercial item,” as that term is defined in 48 C.F.R. 2.101 (Oct. 1995), consisting of “commercial computer software” and “commercial computer software documentation,” as such terms are used in 48 C.F.R. 12.212 (Sept. 1995). Consistent with 48 C.F.R. 12.212 and 48 C.F.R. 227.7202-1 through 227.7202-4 (June 1995), all U.S. Government End Users acquire Covered Code with only those rights set forth herein.
 
-11.	MISCELLANEOUS.
-------------------
+ 11) MISCELLANEOUS.
+------------------------
 
 This License represents the complete agreement concerning subject matter hereof. If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable. This License shall be governed by California law provisions (except to the extent applicable law, if any, provides otherwise), excluding its conflict-of-law provisions. With respect to disputes in which at least one party is a citizen of, or an entity chartered or registered to do business in the United States of America, any litigation relating to this License shall be subject to the jurisdiction of the Federal Courts of the Northern District of California, with venue lying in Santa Clara County, California, with the losing party responsible for costs, including without limitation, court costs and reasonable attorneys’ fees and expenses. The application of the United Nations Convention on Contracts for the International Sale of Goods is expressly excluded. Any law or regulation which provides that the language of a contract shall be construed against the drafter shall not apply to this License.
 
-12.	RESPONSIBILITY FOR CLAIMS.
+ 12) RESPONSIBILITY FOR CLAIMS.
 ------------------------------
 
 As between Initial Developer, Original Developer and the Contributors, each party is responsible for claims and damages arising, directly or indirectly, out of its utilization of rights under this License and You agree to work with Initial Developer, Original Developer and Contributors to distribute such responsibility on an equitable basis. Nothing herein is intended or shall be deemed to constitute any admission of liability.
 
-13.	MULTIPLE-LICENSED CODE.
+ 13) MULTIPLE-LICENSED CODE.
 ---------------------------
 
 Initial Developer may designate portions of the Covered Code as Multiple-Licensed. Multiple-Licensed means that the Initial Developer permits you to utilize portions of the Covered Code under Your choice of the CPAL or the alternative licenses, if any, specified by the Initial Developer in the file described in Exhibit A.
 
-14.	ADDITIONAL TERM: ATTRIBUTION
+ 14) ADDITIONAL TERM: ATTRIBUTION
 ---------------------------------
 
 (a)	As a modest attribution to the organizer of the development of the Original Code ("Original Developer"), in the hope that its promotional value may help justify the time, money and effort invested in writing the Original Code, the Original Developer may include in Exhibit B ("Attribution Information") a requirement that each time an Executable and Source Code or a Larger Work is launched or initially run (which includes initiating a session), a prominent display of the Original Developer’s Attribution Information (as defined below) must occur on the graphic user interface employed by the end user to access such Covered Code (which may include display on a splash screen), if any. The size of the graphic image should be consistent with the size of the other elements of the Attribution Information. If the access by the end user to the Executable and Source Code does not create a graphic user interface for access to the Covered Code, this obligation shall not apply. If the Original Code displays such Attribution Information in a particular form (such as in the form of a splash screen, notice at login, an "about" display, or dedicated attribution area on user interface screens), continued use of such form for that Attribution Information is one way of meeting this requirement for notice.
 (b)	Attribution information may only include a copyright notice, a brief phrase, graphic image and a URL ("Attribution Information") and is subject to the Attribution Limits as defined below. For these purposes, prominent shall mean display for sufficient duration to give reasonable notice to the user of the identity of the Original Developer and that if You include Attribution Information or similar information for other parties, You must ensure that the Attribution Information for the Original Developer shall be no less prominent than such Attribution Information or similar information for the other party. For greater certainty, the Original Developer may choose to specify in Exhibit B below that the above attribution requirement only applies to an Executable and Source Code resulting from the Original Code or any Modification, but not a Larger Work. The intent is to provide for reasonably modest attribution, therefore the Original Developer cannot require that You display, at any time, more than the following information as Attribution Information: (a) a copyright notice including the name of the Original Developer; (b) a word or one phrase (not exceeding 10 words); (c) one graphic image provided by the Original Developer; and (d) a URL (collectively, the "Attribution Limits").
 (Copyright © 2011 If Exhibit B does not You acknowledge that all trademarks, service marks and/or trade names contained within the Attribution Information distributed with the Covered Code are the exclusive property of their owners and may only be used with the permission of their owners, or under circumstances otherwise permitted by law or as expressly set out in this License.
 
-15.	ADDITIONAL TERM: NETWORK USE.
----------------------------------
+ 15) ADDITIONAL TERM: NETWORK USE.
+----------------------------------
 
 The term "External Deployment" means the use, distribution, or communication of the Original Code or Modifications in any way such that the Original Code or Modifications may be used by anyone other than You, whether those works are distributed or communicated to those persons or made available as an application intended for use over a network. As an express condition for the grants of license hereunder, You must treat any External Deployment by You of the Original Code or Modifications as a distribution under section 3.1 and make Source Code available under Section 3.2.
 
