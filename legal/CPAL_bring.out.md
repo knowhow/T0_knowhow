@@ -160,10 +160,10 @@ If you wish to allow use of your version of this file only under the terms of th
 EXHIBIT B. Attribution Information
 -------------------------------------
 
-Attribution Copyright Notice: _______________________
-Attribution Phrase (not exceeding 10 words): _______________________
+Attribution Copyright Notice: Copyright (c) 2010-2011 by bring.out d.o.o. Sarajevo
+Attribution Phrase (not exceeding 10 words): Powered by knowhow ERP
 
-Attribution URL: _______________________
+Attribution URL: www.bring.out.ba
 
 Graphic Image as provided in the Covered Code, if any.
 
