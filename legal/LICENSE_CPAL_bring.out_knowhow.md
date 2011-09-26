@@ -161,15 +161,19 @@ EXHIBIT B. Attribution Information
 -------------------------------------
 
 Attribution Copyright Notice: Copyright (c) 2010-2011 by bring.out d.o.o. Sarajevo
+
 Attribution Phrase (not exceeding 10 words): Powered by knowhow ERP
 
 Attribution URL: http://www.bring.out.ba
 
-Graphic Image as provided in the Covered Code, if any. (online at http://www.bring.out.ba/pages/knowhowpoweredby)
+Graphic Image as provided in the Covered Code, (online at http://www.bring.out.ba/pages/knowhowpoweredby).
 
-Display of Attribution Information is [required/not required] in Larger Works which are defined in the CPAL as a work which combines Covered Code or portions thereof with code not governed by the terms of the CPAL.include any Attribution Information, then there are no requirements for You to display any Attribution Information of the Original Developer.
+Display of Attribution Information is required in Larger Works which are defined in the CPAL as a work which combines Covered Code or portions thereof with code not governed by the terms of the CPAL.include any Attribution Information, then there are no requirements for You to display any Attribution Information of the Original Developer.
 (d). All Rights Reserved.
+
 Contributor represents that, except as disclosed pursuant to Section 3.4(a) above, Contributor believes that Contributor’s Modifications are Contributor’s original creation(s) and/or Contributor has sufficient rights to grant the rights conveyed by this License.
+
 3.5. All Rights Reserved.n Sections 2.2(a) and 2.2(b) are effective on the date Contributor first makes Commercial Use of the Covered Code.
+
 (d). All Rights Reserved.n this Section 2.1(a) and (b) are effective on the date Initial Developer first distributes Original Code under the terms of this License.
 (d). All Rights Reserved.
