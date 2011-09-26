@@ -160,12 +160,12 @@ If you wish to allow use of your version of this file only under the terms of th
 EXHIBIT B. Attribution Information
 -------------------------------------
 
-Attribution Copyright Notice: _______________________
-Attribution Phrase (not exceeding 10 words): _______________________
+Attribution Copyright Notice: Copyright (c) 2010-2011 by bring.out d.o.o. Sarajevo
+Attribution Phrase (not exceeding 10 words): Powered by knowhow ERP
 
-Attribution URL: _______________________
+Attribution URL: http://www.bring.out.ba
 
-Graphic Image as provided in the Covered Code, if any.
+Graphic Image as provided in the Covered Code, if any. (online at http://www.bring.out.ba/pages/knowhowpoweredby)
 
 Display of Attribution Information is [required/not required] in Larger Works which are defined in the CPAL as a work which combines Covered Code or portions thereof with code not governed by the terms of the CPAL.include any Attribution Information, then there are no requirements for You to display any Attribution Information of the Original Developer.
 (d). All Rights Reserved.
