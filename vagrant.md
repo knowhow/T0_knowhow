@@ -1,12 +1,12 @@
 # vagrant
 
-## Predhodna podešeja
+## Predhodna podešenja
 
 Prije instalacije vagranta moramo imati instalirane:
 
 - virtualbox (ver 4.1.0)
   -  hostonly interfejse vboxnet0, vboxnet1 (pogledati na virtualbox File/Preference/Network)
-- rvm
+- [rvm] (https://github.com/hernad/T0_knowhow/blob/master/ruby.md)
 
 ## install
 
