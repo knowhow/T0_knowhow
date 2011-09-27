@@ -213,7 +213,7 @@ Alternatively, the contents of this file may be used under the terms of the brin
 EXHIBIT B. Attribution Information
 -------------------------------------
 
-Attribution Copyright Notice: Copyright (c) 1996-2011 by bring.out d.o.o. Sarajevo
+Attribution Copyright Notice: Copyright (c) 2010-2011 by bring.out d.o.o. Sarajevo
 
 Attribution Phrase: Powered by knowhow ERP
 
