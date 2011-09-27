@@ -12,19 +12,65 @@ Korisne komande
 
 `:pwd`  - prikaži tekući direktorij
 
+<<<<<<< HEAD
 `<S+zz>` - snimi i izađi
+=======
+## normal mode
+
+`<c-W> lijeva / desna / gore / dole strelica` -  pomjeranje prozora u fokusu
+
+`ZZ` - snimi i izađi
+>>>>>>> knowhow-fork
 
 `dd` - briši cijelu liniju
 
 `/` - traži pojam `n` - pomjeri se na slijedeći pojam
 
-`<C+f>` - stranica naprijed
+`<c-f>` - stranica naprijed
 
-`<C+b>` - stranica nazad
+`<c-b>` - stranica nazad
 
-## normal mode
+`<c-a>` - select all, mapirati "ggVG"
 
+<<<<<<< HEAD
 `<C-W> lijeva / desna / gore / dole strelica` -  pomjeranje prozora u fokusu
+=======
+<pre>
+~/.vimrc
+------------
+" select all
+nmap <c-a> ggVG
+</pre>
+
+## INSERT mode
+
+### CTRL-R
+
+`<C+r>` - (:help i_CTRL-R) - kada smo u insert modu kucamo ctrl+r. Pojavi nam se `"` što je znak da vim čeka naš sljedeći znak:
+
+- `%` - naziv tekućeg fajla
+- `=` - mini kalkulator - unesite ctrl+r pa nakon toga =3*2.2
+- `+` - clipboard sadržaj
+
+
+## selection mode
+
+### indent bloka (više linija) teksta
+
+http://stackoverflow.com/questions/235839/how-do-i-indent-multiple-lines-quickly-in-vi
+
+- odaberemo linije koje želimo pomjeriti
+- kucamo `>` 
+
+## Tabs
+
+http://www.catswhocode.com/blog/100-vim-commands-every-programmer-should-know
+
+- `:tabnew` - new tab
+- `gt` - show next tab
+- `:tabdo %s/foo/bar/g - execute find-replace komandu u svim tabovima
+- `:tab ball - stavi sve otvorene fajlove u tabove
+>>>>>>> knowhow-fork
 
 
 ## NERDTree
@@ -39,6 +85,15 @@ F - prikazuj / ne prikazuj fajlove
 
 cd - setuje se da je tekući direktorij onaj na kome smo pozicionirani
 
+### NERDTree bookmarks
+
+http://stackoverflow.com/questions/1002404/project-management-plugin-for-vim
+
+`:Bookmark proj1`
+`B` - kada smo u NERDTree kucamo za prikaz bookmark-a
+
+
+
 ## vimgrep
 
 `:vimgrep /only_if/ **/*.rb` - nađi sve fajlove unutar poddirektorija u odnosu na tekući direktorij (pogledaj `cd` NERDTree, `:pwd`)  
@@ -48,6 +103,38 @@ nakon toga se sa `:cn` - naprijed /  `:cp` - nazad prelazi na novi fajl u kome j
 validni vimgrep izrazi:
 
 - `/not_if\|only_if/` - nađi sve fajlove koji sadrže ili `not_if` ili `only_if`
+
+## tabular plugin
+ 
+http://vimcasts.org/episodes/aligning-text-with-tabular-vim/
+
+
+Ukucaj i označi ovaj tekst:
+
+<pre>
+var video = {
+    metadata: {
+        title: "Aligning assignments"
+        h264Src: "/media/alignment.mov",
+        oggSrc: "/media/alignment.ogv"
+        posterSrc: "/media/alignment.png"
+        duration: 320,
+    }
+}
+</pre>
+
+kucaj `:Tabular/:`
+
+slično ukucaj
+
+<pre>
+one = 1
+two = 2
+three = 3
+four = 4
+</pre>
+
+kucaj `:Tabular/=`
 
 
 ## Mapiranje funkcijskih tipki
@@ -117,9 +204,67 @@ tag-list plugin, omnicompletion system, minibufi explorer
 
 http://arstechnica.com/open-source/guides/2009/05/vim-made-easy-how-to-get-your-favorite-ide-features-in-vim.ars
 
+### stackoverflow
+
+http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/
+
 ### tagbar, ctags
 
 ctags, jsctags
 
 https://gist.github.com/1132098
+
+### vimemu graphical cheat-sheet and tutirial
+
+http://www.glump.net/_media/howto/vi-vim-cheat-sheet-and-tutorial.pdf
+
+### vikia
+
+expression in substitute
+
+http://vim.wikia.com/wiki/Using_an_expression_in_substitute_command
+
+ubaci na početak broj linije + tab u svakoj liniji:
+
+```
+:%s/^/\=line('.')."\t"/
+```
+
+gornja komanda ali samo za opseg linija 10-20:
+
+```
+:10,20s/^/\=line('.')."\t"/
+```
+
+za linije od 10-20 setuj counter koji pocinje od 55
+
+```
+let counter=54|10,20g//let counter=counter+1|s/^/\=counter."\t"
+```
+
+izbroj sve pagrafe, pri čemu su paragrafi odijeljeni jedan od drugog sa jednom ili više praznih linija:
+
+```
+:let counter=0|1,20g/^$\n^\s*[^\s]/let counter=counter+1|+1s/^/\=counter."\t"
+```
+
+## exe komanda
+
+```
+:let c_file = @%
+:echo c_file (=> ime tekuceg fajla npr test.coffee)
+:exe 'r !coffee -t '.c_file (izvrsi komandu 'r !coffee -t test.coffee' - učitaj u tekući buffer output ove eksterne komande)
+```  
+
+### MRU plugin
+
+Most recently used - nedavno korišteni fajlovi
+
+```MRU js``` - prikaz .js fajlova u MRU listi
+
+### search multi-line
+
+http://vim.wikia.com/wiki/Search_across_multiple_lines
+
+```/abc\_s*def/```- nađi sve "abc" iza kojih slijede nove linije ili razmaci a onda "def"
 

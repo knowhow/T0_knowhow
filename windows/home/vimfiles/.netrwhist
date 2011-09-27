@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/hernad/chef-repo-macosx-workstation/cookbooks/tunnelblick/attributes'
+let g:netrw_dirhist_2='/Users/hernad/.chef'
+let g:netrw_dirhist_3='/Users/hernad/chef-repo-macosx-workstation'
+let g:netrw_dirhist_4='/Users/hernad'
+let g:netrw_dirhist_5='/Users/hernad/chef/cookbooks'
+let g:netrw_dirhist_6='/Users/hernad/chef/cookbooks/zenoss'
+let g:netrw_dirhist_7='/Users/hernad/chef/ansolabs-openstack-cookbooks/cookbooks/openldap/recipes'
+let g:netrw_dirhist_8='/Users/hernad/chef/ansolabs-openstack-cookbooks/cookbooks/openldap'
+let g:netrw_dirhist_9='/Users/hernad/chef/ansolabs-openstack-cookbooks/cookbooks/openldap/attributes'
