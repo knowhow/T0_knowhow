@@ -196,4 +196,28 @@
     <source>Email Recipient</source>
     <target>Primalac email-a</target>
 </phrase>
+<phrase>
+    <source>CRM Account</source>
+    <target>CRM korisnik</target>
+</phrase>
+<phrase>
+    <source>Database Error</source>
+    <target>Greška baze podataka</target>
+</phrase>
+<phrase>
+    <source>You don&apos;t have permission to process Credit Card transactions.</source>
+    <target>Nemate pravo procesirati kreditnu karticu</target>
+</phrase>
+<phrase>
+    <source>Credit Card %1 has expired.</source>
+    <target>Kreditna kartica %1 je istekla.</target>
+</phrase>
+<phrase>
+    <source>%1 is not implemented.</source>
+    <target>%1 nije implementiran.</target>
+</phrase>
+<phrase>
+    <source>N/A</source>
+    <target>N/D</target>
+</phrase>
 </QPH>
