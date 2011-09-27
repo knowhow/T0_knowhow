@@ -201,7 +201,7 @@ The Original Code is FMK accounting.
 
 The Original Developer is not the Initial Developer and is ____________________. If left blank, the Original Developer is the Initial Developer.
 
-The Initial Developer of the Original Code is bring.out doo Sarajevo. All portions of the code written by bring.out are Copyright (c) 2010-2011 bring.out doo Sarajevo. All Rights Reserved.
+The Initial Developer of the Original Code is bring.out doo Sarajevo. All portions of the code written by bring.out are Copyright (c) 1996-2011 bring.out doo Sarajevo. All Rights Reserved.
 
 Contributor(s) ______________________.
 
