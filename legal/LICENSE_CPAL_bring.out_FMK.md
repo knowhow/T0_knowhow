@@ -175,7 +175,7 @@ Initial Developer may designate portions of the Covered Code as Multiple-License
 
 
 
- 14. ADDITIONAL TERM: ATTRIBUTION
+ 14) ADDITIONAL TERM: ATTRIBUTION
 ---------------------------------
 
 (a) As a modest attribution to the organizer of the development of the Original Code ("Original Developer"), in the hope that its promotional value may help justify the time, money and effort invested in writing the Original Code, the Original Developer may include in Exhibit B ("Attribution Information") a requirement that each time an Executable and Source Code or a Larger Work is launched or initially run (which includes initiating a session), a prominent display of the Original Developer's Attribution Information (as defined below) must occur on the graphic user interface employed by the end user to access such Covered Code (which may include display on a splash screen), if any. The size of the graphic image should be consistent with the size of the other elements of the Attribution Information. If the access by the end user to the Executable and Source Code does not create a graphic user interface for access to the Covered Code, this obligation shall not apply. If the Original Code displays such Attribution Information in a particular form (such as in the form of a splash screen, notice at login, an "about" display, or dedicated attribution area on user interface screens), continued use of such form for that Attribution Information is one way of meeting this requirement for notice.
