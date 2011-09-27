@@ -34,9 +34,9 @@ rvm install 1.9.2
 rvm install jruby
 ```
 
-kada želimo koristiti određeni ruby koristimo use:
+kada želimo koristiti određeni ruby koristimo:
 ```
 rvm use 1.9.2
 ```
 
-
+ako dobijamo grešku ```openssl (LoadError)``` [openssl fix](http://redmine.bring.out.ba/issues/24567)
