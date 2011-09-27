@@ -20,4 +20,204 @@
     <source>Tax</source>
     <target>Porez</target>
 </phrase>
+<phrase>
+    <source>Description</source>
+    <target>Opis</target>
+</phrase>
+<phrase>
+    <source>Type</source>
+    <target>Tip</target>
+</phrase>
+<phrase>
+    <source>Relationship</source>
+    <target>Relacija</target>
+</phrase>
+<phrase>
+    <source>Project</source>
+    <target>Projekat</target>
+</phrase>
+<phrase>
+    <source>Image</source>
+    <target>Slika</target>
+</phrase>
+<phrase>
+    <source>Vendor</source>
+    <target>Dobavljač</target>
+</phrase>
+<phrase>
+    <source>Contact</source>
+    <target>Kontakt</target>
+</phrase>
+<phrase>
+    <source>Employee</source>
+    <target>Radnik</target>
+</phrase>
+<phrase>
+    <source>Employee</source>
+    <target>Radnik</target>
+</phrase>
+<phrase>
+    <source>File</source>
+    <target>Fajl</target>
+</phrase>
+<phrase>
+    <source>Open</source>
+    <target>Otvori</target>
+</phrase>
+<phrase>
+    <source>View</source>
+    <target>Pogled</target>
+</phrase>
+<phrase>
+    <source>Other</source>
+    <target>Ostalo</target>
+</phrase>
+<phrase>
+    <source>Error</source>
+    <target>Greška</target>
+</phrase>
+<phrase>
+    <source>Duplicate of</source>
+    <target>Duplikat od</target>
+</phrase>
+<phrase>
+    <source>Customer</source>
+    <target>Kupac</target>
+</phrase>
+<phrase>
+    <source>Work Order</source>
+    <target>Radni nalog</target>
+</phrase>
+<phrase>
+    <source>Address</source>
+    <target>Adresa</target>
+</phrase>
+<phrase>
+    <source>Addresses</source>
+    <target>Adrese</target>
+</phrase>
+<phrase>
+    <source>Street Address</source>
+    <target>Ulica</target>
+</phrase>
+<phrase>
+    <source>Active</source>
+    <target>Aktivan</target>
+</phrase>
+<phrase>
+    <source>Bill of Materials</source>
+    <target>Sastavnica materijala</target>
+</phrase>
+<phrase>
+    <source>Expires</source>
+    <target>Ističe</target>
+</phrase>
+<phrase>
+    <source>Edit</source>
+    <target>Ispravka</target>
+</phrase>
+<phrase>
+    <source>Push</source>
+    <target>Pošalji</target>
+</phrase>
+<phrase>
+    <source>Pull</source>
+    <target>Preuzmi</target>
+</phrase>
+<phrase>
+    <source>Mixed</source>
+    <target>Miješano</target>
+</phrase>
+<phrase>
+    <source>Cancel</source>
+    <target>Otkaži</target>
+</phrase>
+<phrase>
+    <source>Activate</source>
+    <target>Aktiviraj</target>
+</phrase>
+<phrase>
+    <source>Reference</source>
+    <target>Referenca</target>
+</phrase>
+<phrase>
+    <source>City</source>
+    <target>Grad</target>
+</phrase>
+<phrase>
+    <source>State</source>
+    <target>Država</target>
+</phrase>
+<phrase>
+    <source>Postal Code</source>
+    <target>Poštanski broj</target>
+</phrase>
+<phrase>
+    <source>Email</source>
+    <target>email</target>
+</phrase>
+<phrase>
+    <source>Event</source>
+    <target>Događaj</target>
+</phrase>
+<phrase>
+    <source>System Message</source>
+    <target>Sistemska poruka</target>
+</phrase>
+<phrase>
+    <source>minutes before</source>
+    <target>minuta prije</target>
+</phrase>
+<phrase>
+    <source>hours before</source>
+    <target>sahata prije</target>
+</phrase>
+<phrase>
+    <source>days before</source>
+    <target>dana prije</target>
+</phrase>
+<phrase>
+    <source>hours after</source>
+    <target>sahata nakon</target>
+</phrase>
+<phrase>
+    <source>days after</source>
+    <target>dana nakon</target>
+</phrase>
+<phrase>
+    <source>Event Recipient</source>
+    <target>Primalac događaja</target>
+</phrase>
+<phrase>
+    <source>SysMsg Recipient</source>
+    <target>Primalac sistemske poruke</target>
+</phrase>
+<phrase>
+    <source>Email Recipient</source>
+    <target>Primalac email-a</target>
+</phrase>
+<phrase>
+    <source>CRM Account</source>
+    <target>CRM korisnik</target>
+</phrase>
+<phrase>
+    <source>Database Error</source>
+    <target>Greška baze podataka</target>
+</phrase>
+<phrase>
+    <source>You don&apos;t have permission to process Credit Card transactions.</source>
+    <target>Nemate pravo procesirati kreditnu karticu</target>
+</phrase>
+<phrase>
+    <source>Credit Card %1 has expired.</source>
+    <target>Kreditna kartica %1 je istekla.</target>
+</phrase>
+<phrase>
+    <source>%1 is not implemented.</source>
+    <target>%1 nije implementiran.</target>
+</phrase>
+<phrase>
+    <source>N/A</source>
+    <target>N/D</target>
+</phrase>
 </QPH>
