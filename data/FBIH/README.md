@@ -14,6 +14,8 @@ sa menija file->open otvaramo priloženi xml fajl.
 
 Nakon što se učitao map fajl, prebacujemo se na csv prozor i biramo opciju start sa menija import.
 
+Pogledaj upute na [aktivnosti #24699](http://redmine.bring.out.ba/issues/24699)
+
 Priprema CSV fajla iz konto.dbf
 -------------------------------
 
