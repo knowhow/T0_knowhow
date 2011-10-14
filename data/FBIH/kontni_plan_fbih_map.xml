@@ -1,0 +1,162 @@
+<!DOCTYPE openCSVAtlasDef>
+<CSVAtlas>
+ <CSVMap>
+  <Name>accnt_map</Name>
+  <Table>public.accnt</Table>
+  <Action>Insert</Action>
+  <Description>Ovo je insert skripta koja prabacuje kontni plan Federacije BiH u xtuple bazu.</Description>
+  <PreSQL>DELETE FROM accnt;</PreSQL>
+  <PostSQL>-- izbriši iz tabele accnt sve stavke kojima je dužina manja od 3, te stavke nam ne trebaju
+DELETE FROM accnt WHERE length(accnt_number) &lt; 3;
+
+-- izbriši klase koje nam ne trebaju...
+DELETE FROM accnt WHERE accnt_number LIKE '63%';
+DELETE FROM accnt WHERE accnt_number LIKE '8%';
+DELETE FROM accnt WHERE accnt_number LIKE '08%';
+DELETE FROM accnt WHERE accnt_number LIKE '25%';
+DELETE FROM accnt WHERE accnt_number LIKE '26%';
+DELETE FROM accnt WHERE accnt_number LIKE '37%';
+
+-- A - assets
+-- bazna konverzija
+UPDATE accnt SET accnt_type = 'A' WHERE accnt_number LIKE '0%'; 
+UPDATE accnt SET accnt_type = 'A' WHERE accnt_number LIKE '1%';
+UPDATE accnt SET accnt_type = 'A' WHERE accnt_number LIKE '2%';
+
+-- A - AD
+UPDATE accnt SET accnt_subaccnttype_code = 'AD' WHERE accnt_number LIKE '21%';
+
+-- A - CA
+
+-- A - FA
+UPDATE accnt SET accnt_subaccnttype_code = 'FA' WHERE accnt_number LIKE '01%';
+UPDATE accnt SET accnt_subaccnttype_code = 'FA' WHERE accnt_number LIKE '02%';
+UPDATE accnt SET accnt_subaccnttype_code = 'FA' WHERE accnt_number LIKE '03%';
+UPDATE accnt SET accnt_subaccnttype_code = 'FA' WHERE accnt_number LIKE '04%';
+UPDATE accnt SET accnt_subaccnttype_code = 'FA' WHERE accnt_number LIKE '05%';
+
+-- A - IN
+
+-- A - CAS
+UPDATE accnt SET accnt_subaccnttype_code = 'CAS' WHERE accnt_number LIKE '10%';
+UPDATE accnt SET accnt_subaccnttype_code = 'CAS' WHERE accnt_number LIKE '11%';
+UPDATE accnt SET accnt_subaccnttype_code = 'CAS' WHERE accnt_number LIKE '12%';
+UPDATE accnt SET accnt_subaccnttype_code = 'CAS' WHERE accnt_number LIKE '13%';
+UPDATE accnt SET accnt_subaccnttype_code = 'CAS' WHERE accnt_number LIKE '14%';
+UPDATE accnt SET accnt_subaccnttype_code = 'CAS' WHERE accnt_number LIKE '15%';
+UPDATE accnt SET accnt_subaccnttype_code = 'CAS' WHERE accnt_number LIKE '20%';
+
+-- A - AR
+UPDATE accnt SET accnt_subaccnttype_code = 'AR' WHERE accnt_number LIKE '06%';
+UPDATE accnt SET accnt_subaccnttype_code = 'AR' WHERE accnt_number LIKE '07%';
+UPDATE accnt SET accnt_subaccnttype_code = 'AR' WHERE accnt_number LIKE '09%';
+UPDATE accnt SET accnt_subaccnttype_code = 'AR' WHERE accnt_number LIKE '21%';
+UPDATE accnt SET accnt_subaccnttype_code = 'AR' WHERE accnt_number LIKE '22%';
+UPDATE accnt SET accnt_subaccnttype_code = 'AR' WHERE accnt_number LIKE '23%';
+UPDATE accnt SET accnt_subaccnttype_code = 'AR' WHERE accnt_number LIKE '24%';
+UPDATE accnt SET accnt_subaccnttype_code = 'AR' WHERE accnt_number LIKE '27%';
+UPDATE accnt SET accnt_subaccnttype_code = 'AR' WHERE accnt_number LIKE '28%';
+UPDATE accnt SET accnt_subaccnttype_code = 'AR' WHERE accnt_number LIKE '29%';
+
+
+-- L - liability
+-- bazna konverzija
+UPDATE accnt SET accnt_type = 'L' WHERE accnt_number LIKE '4%';
+
+-- L - LTL
+UPDATE accnt SET accnt_subaccnttype_code = 'LTL' WHERE accnt_number LIKE '40%';
+UPDATE accnt SET accnt_subaccnttype_code = 'LTL' WHERE accnt_number LIKE '41%';
+
+-- L - AP
+UPDATE accnt SET accnt_subaccnttype_code = 'AP' WHERE accnt_number LIKE '43%';
+UPDATE accnt SET accnt_subaccnttype_code = 'AP' WHERE accnt_number LIKE '44%';
+UPDATE accnt SET accnt_subaccnttype_code = 'AP' WHERE accnt_number LIKE '45%';
+UPDATE accnt SET accnt_subaccnttype_code = 'AP' WHERE accnt_number LIKE '46%';
+UPDATE accnt SET accnt_subaccnttype_code = 'AP' WHERE accnt_number LIKE '47%';
+UPDATE accnt SET accnt_subaccnttype_code = 'AP' WHERE accnt_number LIKE '48%';
+UPDATE accnt SET accnt_subaccnttype_code = 'AP' WHERE accnt_number LIKE '49%';
+
+-- L - CL
+UPDATE accnt SET accnt_subaccnttype_code = 'CL' WHERE accnt_number LIKE '42%';
+
+-- E - expense
+-- bazna konverzija
+UPDATE accnt SET accnt_type = 'E', accnt_subaccnttype_code = 'EXP' WHERE accnt_number LIKE '5%';
+UPDATE accnt SET accnt_type = 'E', accnt_subaccnttype_code = 'EXP' WHERE accnt_number LIKE '9%';
+
+-- E - COGS
+UPDATE accnt SET accnt_subaccnttype_code = 'COGS' WHERE accnt_number LIKE '50%';
+
+-- E - EXP
+-- trenutno ništa, već u baznoj setujem sve na EXP
+
+-- R - revenue
+-- bazna konverzija
+UPDATE accnt SET accnt_type = 'R' WHERE accnt_number LIKE '6%';
+
+-- R - II
+UPDATE accnt SET accnt_subaccnttype_code = 'II' WHERE accnt_number LIKE '66%';
+
+-- R - IV
+UPDATE accnt SET accnt_subaccnttype_code = 'IV' WHERE accnt_number LIKE '64%';
+UPDATE accnt SET accnt_subaccnttype_code = 'IV' WHERE accnt_number LIKE '65%';
+UPDATE accnt SET accnt_subaccnttype_code = 'IV' WHERE accnt_number LIKE '67%';
+
+-- R - RT
+UPDATE accnt SET accnt_subaccnttype_code = 'RT' WHERE accnt_number LIKE '68%';
+UPDATE accnt SET accnt_subaccnttype_code = 'RT' WHERE accnt_number LIKE '69%';
+
+-- R - SI
+UPDATE accnt SET accnt_subaccnttype_code = 'SI' WHERE accnt_number LIKE '60%';
+UPDATE accnt SET accnt_subaccnttype_code = 'SI' WHERE accnt_number LIKE '61%';
+UPDATE accnt SET accnt_subaccnttype_code = 'SI' WHERE accnt_number LIKE '62%';
+
+-- Q - equity
+-- nema bazne konverzije, zato što se svi setuju sa Q po defaultu!
+-- promjeniti ću samo subtipove
+
+-- Q - EC
+UPDATE accnt SET accnt_subaccnttype_code = 'EC' WHERE accnt_number LIKE '30%';
+UPDATE accnt SET accnt_subaccnttype_code = 'EC' WHERE accnt_number LIKE '31%';
+UPDATE accnt SET accnt_subaccnttype_code = 'EC' WHERE accnt_number LIKE '32%';
+UPDATE accnt SET accnt_subaccnttype_code = 'EC' WHERE accnt_number LIKE '35%';
+UPDATE accnt SET accnt_subaccnttype_code = 'EC' WHERE accnt_number LIKE '36%';
+UPDATE accnt SET accnt_subaccnttype_code = 'EC' WHERE accnt_number LIKE '70%';
+UPDATE accnt SET accnt_subaccnttype_code = 'EC' WHERE accnt_number LIKE '71%';
+UPDATE accnt SET accnt_subaccnttype_code = 'EC' WHERE accnt_number LIKE '72%';
+UPDATE accnt SET accnt_subaccnttype_code = 'EC' WHERE accnt_number LIKE '73%';
+
+
+-- Q - EDC
+UPDATE accnt SET accnt_subaccnttype_code = 'EDC' WHERE accnt_number LIKE '33%';
+-- Q - ERE
+UPDATE accnt SET accnt_subaccnttype_code = 'ERE' WHERE accnt_number LIKE '34%';</PostSQL>
+  <CSVMapField>
+   <Name>accnt_number</Name>
+   <Type>QString</Type>
+   <Column>1</Column>
+  </CSVMapField>
+  <CSVMapField>
+   <Name>accnt_descrip</Name>
+   <Type>QString</Type>
+   <Column>2</Column>
+  </CSVMapField>
+  <CSVMapField>
+   <Name>accnt_closedpost</Name>
+   <Type>bool</Type>
+   <Action>UseAlternateValue</Action>
+   <AltValue>false</AltValue>
+  </CSVMapField>
+  <CSVMapField>
+   <Name>accnt_forwardupdate</Name>
+   <Type>bool</Type>
+   <Action>UseAlternateValue</Action>
+   <AltValue>false</AltValue>
+  </CSVMapField>
+  <CSVMapField>
+   <Name>accnt_type</Name>
+   <Action>UseAlternateValue</Action>
+   <AltValue>Q</AltValue>
+  </CSVMapField>
+ </CSVMap>
+</CSVAtlas>
