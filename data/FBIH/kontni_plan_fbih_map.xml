@@ -11,8 +11,11 @@ DELETE FROM accnt WHERE length(accnt_number) &lt; 3;
 
 -- izbriši klase koje nam ne trebaju...
 DELETE FROM accnt WHERE accnt_number LIKE '63%';
--- briši vanbilansna konta
 DELETE FROM accnt WHERE accnt_number LIKE '8%';
+DELETE FROM accnt WHERE accnt_number LIKE '08%';
+DELETE FROM accnt WHERE accnt_number LIKE '25%';
+DELETE FROM accnt WHERE accnt_number LIKE '26%';
+DELETE FROM accnt WHERE accnt_number LIKE '37%';
 
 -- A - assets
 -- bazna konverzija
@@ -40,16 +43,19 @@ UPDATE accnt SET accnt_subaccnttype_code = 'CAS' WHERE accnt_number LIKE '11%';
 UPDATE accnt SET accnt_subaccnttype_code = 'CAS' WHERE accnt_number LIKE '12%';
 UPDATE accnt SET accnt_subaccnttype_code = 'CAS' WHERE accnt_number LIKE '13%';
 UPDATE accnt SET accnt_subaccnttype_code = 'CAS' WHERE accnt_number LIKE '14%';
+UPDATE accnt SET accnt_subaccnttype_code = 'CAS' WHERE accnt_number LIKE '15%';
 UPDATE accnt SET accnt_subaccnttype_code = 'CAS' WHERE accnt_number LIKE '20%';
 
 -- A - AR
 UPDATE accnt SET accnt_subaccnttype_code = 'AR' WHERE accnt_number LIKE '06%';
 UPDATE accnt SET accnt_subaccnttype_code = 'AR' WHERE accnt_number LIKE '07%';
+UPDATE accnt SET accnt_subaccnttype_code = 'AR' WHERE accnt_number LIKE '09%';
 UPDATE accnt SET accnt_subaccnttype_code = 'AR' WHERE accnt_number LIKE '21%';
 UPDATE accnt SET accnt_subaccnttype_code = 'AR' WHERE accnt_number LIKE '22%';
 UPDATE accnt SET accnt_subaccnttype_code = 'AR' WHERE accnt_number LIKE '23%';
 UPDATE accnt SET accnt_subaccnttype_code = 'AR' WHERE accnt_number LIKE '24%';
 UPDATE accnt SET accnt_subaccnttype_code = 'AR' WHERE accnt_number LIKE '27%';
+UPDATE accnt SET accnt_subaccnttype_code = 'AR' WHERE accnt_number LIKE '28%';
 UPDATE accnt SET accnt_subaccnttype_code = 'AR' WHERE accnt_number LIKE '29%';
 
 
