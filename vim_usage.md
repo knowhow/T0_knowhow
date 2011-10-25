@@ -12,15 +12,11 @@ Korisne komande
 
 `:pwd`  - prikaži tekući direktorij
 
-<<<<<<< HEAD
-`<S+zz>` - snimi i izađi
-=======
 ## normal mode
 
 `<c-W> lijeva / desna / gore / dole strelica` -  pomjeranje prozora u fokusu
 
 `ZZ` - snimi i izađi
->>>>>>> knowhow-fork
 
 `dd` - briši cijelu liniju
 
@@ -32,9 +28,6 @@ Korisne komande
 
 `<c-a>` - select all, mapirati "ggVG"
 
-<<<<<<< HEAD
-`<C-W> lijeva / desna / gore / dole strelica` -  pomjeranje prozora u fokusu
-=======
 <pre>
 ~/.vimrc
 ------------
@@ -70,7 +63,6 @@ http://www.catswhocode.com/blog/100-vim-commands-every-programmer-should-know
 - `gt` - show next tab
 - `:tabdo %s/foo/bar/g - execute find-replace komandu u svim tabovima
 - `:tab ball - stavi sve otvorene fajlove u tabove
->>>>>>> knowhow-fork
 
 
 ## NERDTree
