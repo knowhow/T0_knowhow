@@ -760,4 +760,970 @@
     <source>&amp;Print</source>
     <target>&amp;Štampaj</target>
 </phrase>
+<phrase>
+    <source>Cash</source>
+    <target>Gotovina</target>
+</phrase>
+<phrase>
+    <source>Cash</source>
+    <target>Gotovina</target>
+</phrase>
+<phrase>
+    <source>Street
+Address:</source>
+    <target>Adresa:</target>
+</phrase>
+<phrase>
+    <source>City:</source>
+    <target>Grad:</target>
+</phrase>
+<phrase>
+    <source>State:</source>
+    <target>Država:</target>
+</phrase>
+<phrase>
+    <source>Postal Code:</source>
+    <target>Poštanski broj:</target>
+</phrase>
+<phrase>
+    <source>Country:</source>
+    <target>Država:</target>
+</phrase>
+<phrase>
+    <source>A System Error Occurred at %1::%2.</source>
+    <target>Sistemska greška na %1::%2.</target>
+</phrase>
+<phrase>
+    <source>%1::sInfo() not yet defined</source>
+    <target>%1::sInfo() nije definisan</target>
+</phrase>
+<phrase>
+    <source>Could not instantiate a List Dialog</source>
+    <target>Problem sa inicijalizacijom dialoga</target>
+</phrase>
+<phrase>
+    <source>Could not instantiate a Search Dialog</source>
+    <target>Problem sa inicijalizacijom pretrage</target>
+</phrase>
+<phrase>
+    <source>Question Saving Address</source>
+    <target>Upit za snimanej adrese</target>
+</phrase>
+<phrase>
+    <source>There are multiple Contacts sharing this Address.
+What would you like to do?</source>
+    <target>Jedan ili više kontakata dijele ovu adresu. Želite li da:</target>
+</phrase>
+<phrase>
+    <source>Change This One</source>
+    <target>Ovu promjeniti</target>
+</phrase>
+<phrase>
+    <source>Change Address for All</source>
+    <target>Promijeniti adresu za sve</target>
+</phrase>
+<phrase>
+    <source>&lt;p&gt;This address appears to have a non-standard country. Please select a country from the list before saving.</source>
+    <target>Ova adresa nema odabranu ispravnu državo, izaberit državu iz liste prije snimanja</target>
+</phrase>
+<phrase>
+    <source>There was an error checking this Address (%1).</source>
+    <target>Greška pri provjeri adrese(1%)</target>
+</phrase>
+<phrase>
+    <source>Line 1</source>
+    <target>Linija 1</target>
+</phrase>
+<phrase>
+    <source>Line 2</source>
+    <target>Linija 2</target>
+</phrase>
+<phrase>
+    <source>Line 3</source>
+    <target>Linija 3</target>
+</phrase>
+<phrase>
+    <source>Only addresses for %1</source>
+    <target>Samo adrese ta %1</target>
+</phrase>
+<phrase>
+    <source>Search Street Address</source>
+    <target>Potraži ulicu</target>
+</phrase>
+<phrase>
+    <source>Search City</source>
+    <target>Potraži Grad</target>
+</phrase>
+<phrase>
+    <source>Search State</source>
+    <target>Potraži državu</target>
+</phrase>
+<phrase>
+    <source>Search Postal Code</source>
+    <target>Potraži poštanski broj</target>
+</phrase>
+<phrase>
+    <source>Show Inactive Addresses</source>
+    <target>Prikaži neaktivne adrese</target>
+</phrase>
+<phrase>
+    <source>Only addresses for %1</source>
+    <target>Samo adrese za %1</target>
+</phrase>
+<phrase>
+    <source>Qualifier</source>
+    <target>Kvalifikator</target>
+</phrase>
+<phrase>
+    <source>Due</source>
+    <target>Rok</target>
+</phrase>
+<phrase>
+    <source>mintues after</source>
+    <target>minuta nakon</target>
+</phrase>
+<phrase>
+    <source>Credit Memo</source>
+    <target>Odobrenje</target>
+</phrase>
+<phrase>
+    <source>Credit Memos</source>
+    <target>Odobrenja</target>
+</phrase>
+<phrase>
+    <source>Debit Memo</source>
+    <target>Zaduženja</target>
+</phrase>
+<phrase>
+    <source>Debit Memos</source>
+    <target>Zaduženja</target>
+</phrase>
+<phrase>
+    <source>Debit Memo</source>
+    <target>Zaduženje</target>
+</phrase>
+<phrase>
+    <source>Invoice</source>
+    <target>Račun</target>
+</phrase>
+<phrase>
+    <source>Customer Deposit</source>
+    <target>Depozit kupca</target>
+</phrase>
+<phrase>
+    <source>Invoices</source>
+    <target>Računi</target>
+</phrase>
+<phrase>
+    <source>Cash Deposit</source>
+    <target>Gotovinski depozit</target>
+</phrase>
+<phrase>
+    <source>Cash Deposits</source>
+    <target>Gotovinski depozit</target>
+</phrase>
+<phrase>
+    <source>A/R Open Item</source>
+    <target>A/R Otvori stavku</target>
+</phrase>
+<phrase>
+    <source>A/R Open Items</source>
+    <target>A/R Otvori stavke</target>
+</phrase>
+<phrase>
+    <source>A Login is required.</source>
+    <target>Morate se prijaviti</target>
+</phrase>
+<phrase>
+    <source>The Login must be 20 characters or less.</source>
+    <target>Prijava mora sadržavati 20 ili više karaktera</target>
+</phrase>
+<phrase>
+    <source>First Name</source>
+    <target>Ime:</target>
+</phrase>
+<phrase>
+    <source>Last Name</source>
+    <target>Prezime</target>
+</phrase>
+<phrase>
+    <source>Only contacts for %1</source>
+    <target>Samo kontakti za %1</target>
+</phrase>
+<phrase>
+    <source>Contact List</source>
+    <target>Kontakt lista</target>
+</phrase>
+<phrase>
+    <source>Search First Name</source>
+    <target>Pretraži po imenu</target>
+</phrase>
+<phrase>
+    <source>Search Last Name</source>
+    <target>Pretraži po prezimenu</target>
+</phrase>
+<phrase>
+    <source>Search CRM Account</source>
+    <target>Pretraži CRM račun</target>
+</phrase>
+<phrase>
+    <source>Search Phone Numbers</source>
+    <target>Pretraži brojevetelefona</target>
+</phrase>
+<phrase>
+    <source>Search Email Address</source>
+    <target>Pretraži email adresu</target>
+</phrase>
+<phrase>
+    <source>Doc. Type</source>
+    <target>Tip dokumenta</target>
+</phrase>
+<phrase>
+    <source>Doc. #</source>
+    <target>Dokument. #</target>
+</phrase>
+<phrase>
+    <source>Ord. #</source>
+    <target>Narudžba.#</target>
+</phrase>
+<phrase>
+    <source>Doc. Date</source>
+    <target>Datum dokumenta</target>
+</phrase>
+<phrase>
+    <source>Due Date</source>
+    <target>Rok</target>
+</phrase>
+<phrase>
+    <source>Currency</source>
+    <target>Valuta</target>
+</phrase>
+<phrase>
+    <source>Applied</source>
+    <target>Primjenjeno</target>
+</phrase>
+<phrase>
+    <source>Discount</source>
+    <target>Popust</target>
+</phrase>
+<phrase>
+    <source>Account #</source>
+    <target>račun #</target>
+</phrase>
+<phrase>
+    <source>Balance</source>
+    <target>Stanja</target>
+</phrase>
+<phrase>
+    <source>Amount</source>
+    <target>Iznos</target>
+</phrase>
+<phrase>
+    <source>Sequence</source>
+    <target>Sekvenca</target>
+</phrase>
+<phrase>
+    <source>Name</source>
+    <target>Ime</target>
+</phrase>
+<phrase>
+    <source>Expiration Date</source>
+    <target>Datum isteka</target>
+</phrase>
+<phrase>
+    <source>Invoice</source>
+    <target>Račun</target>
+</phrase>
+<phrase>
+    <source>No Bank Account</source>
+    <target>Nema žiro računa</target>
+</phrase>
+<phrase>
+    <source>Other Credit Card</source>
+    <target>Druga kreditna kartica</target>
+</phrase>
+<phrase>
+    <source>Wire Transfer</source>
+    <target>Virmanska uplata</target>
+</phrase>
+<phrase>
+    <source>Log in to single-user demo with my xTuple web user</source>
+    <target>Logiraj se kao korisnik demo</target>
+</phrase>
+<phrase>
+    <source>Log in to my company&apos;s</source>
+    <target>Prijavi se na moju firmu</target>
+</phrase>
+<phrase>
+    <source>Log in to a server I specify</source>
+    <target>Prijavi se na server  po mom izboru</target>
+</phrase>
+<phrase>
+    <source>Compan&amp;y:</source>
+    <target>Firma</target>
+</phrase>
+<phrase>
+    <source>&amp;Username:</source>
+    <target>Korisničko ime</target>
+</phrase>
+<phrase>
+    <source>&amp;Username:</source>
+    <target>Korisničko ime:</target>
+</phrase>
+<phrase>
+    <source>&amp;Username:</source>
+    <target>&amp;Korisničko ime:</target>
+</phrase>
+<phrase>
+    <source>&amp;Password:</source>
+    <target>&amp;Lozinka</target>
+</phrase>
+<phrase>
+    <source>&amp;Password:</source>
+    <target>&amp;Lozinka:</target>
+</phrase>
+<phrase>
+    <source>&amp;Database:</source>
+    <target>&amp;Baza</target>
+</phrase>
+<phrase>
+    <source>Version </source>
+    <target>Verzija</target>
+</phrase>
+<phrase>
+    <source>Initializing the Database Connector</source>
+    <target>Inicijalizujem koenktor baze</target>
+</phrase>
+<phrase>
+    <source>No Database Driver</source>
+    <target>Nema DB driver-a</target>
+</phrase>
+<phrase>
+    <source>Connecting to the Database</source>
+    <target>Prijavljujem se na bazu</target>
+</phrase>
+<phrase>
+    <source>Form</source>
+    <target>Forma</target>
+</phrase>
+<phrase>
+    <source>Close</source>
+    <target>Zatvori</target>
+</phrase>
+<phrase>
+    <source>New Transaction:</source>
+    <target>Nova transakcija</target>
+</phrase>
+<phrase>
+    <source>Prior Transaction:</source>
+    <target>Prethodna transakcija</target>
+</phrase>
+<phrase>
+    <source>Cards:</source>
+    <target>Kartice:</target>
+</phrase>
+<phrase>
+    <source>Order:</source>
+    <target>Narudžba:</target>
+</phrase>
+<phrase>
+    <source>Schedule</source>
+    <target>Planiraj</target>
+</phrase>
+<phrase>
+    <source>End</source>
+    <target>Kraj</target>
+</phrase>
+<phrase>
+    <source>List Sales</source>
+    <target>Pregled prodaje</target>
+</phrase>
+<phrase>
+    <source>Item</source>
+    <target>Stavka</target>
+</phrase>
+<phrase>
+    <source>Ordered</source>
+    <target>Narudžba</target>
+</phrase>
+<phrase>
+    <source>Shipped</source>
+    <target>Isporuka</target>
+</phrase>
+<phrase>
+    <source>At Shipping</source>
+    <target>Isporuka u toku</target>
+</phrase>
+<phrase>
+    <source>Price</source>
+    <target>Cijena</target>
+</phrase>
+<phrase>
+    <source>Extended</source>
+    <target>Produžen</target>
+</phrase>
+<phrase>
+    <source>Quote</source>
+    <target>Ponuda</target>
+</phrase>
+<phrase>
+    <source>Order Number</source>
+    <target>Broj narudžbe</target>
+</phrase>
+<phrase>
+    <source>Move &amp;Up</source>
+    <target>Gore</target>
+</phrase>
+<phrase>
+    <source>Move Do&amp;wn</source>
+    <target>Dole</target>
+</phrase>
+<phrase>
+    <source>Totals:</source>
+    <target>Ukupno:</target>
+</phrase>
+<phrase>
+    <source>Number Of Items</source>
+    <target>Broj artikala</target>
+</phrase>
+<phrase>
+    <source>Opportunity</source>
+    <target>Ponuda</target>
+</phrase>
+<phrase>
+    <source>Task</source>
+    <target>Zadatak</target>
+</phrase>
+<phrase>
+    <source>Incident</source>
+    <target>Događaj</target>
+</phrase>
+<phrase>
+    <source>To Do</source>
+    <target>Za uraditi</target>
+</phrase>
+<phrase>
+    <source>Unknown File Type.</source>
+    <target>Nepoznat tip fajla</target>
+</phrase>
+<phrase>
+    <source>Miscellaneous</source>
+    <target>Razno</target>
+</phrase>
+<phrase>
+    <source>Purchase Order</source>
+    <target>Narudžba</target>
+</phrase>
+<phrase>
+    <source>Sales Order</source>
+    <target>Prodaja</target>
+</phrase>
+<phrase>
+    <source>To-Do</source>
+    <target>Za uraditi</target>
+</phrase>
+<phrase>
+    <source>Edit...</source>
+    <target>Ispravi</target>
+</phrase>
+<phrase>
+    <source>View...</source>
+    <target>Pregled</target>
+</phrase>
+<phrase>
+    <source>Inactive</source>
+    <target>Neaktivan</target>
+</phrase>
+<phrase>
+    <source>&amp;Show Inactive Users</source>
+    <target>&amp;Prikaži neaktivne korisnike</target>
+</phrase>
+<phrase>
+    <source>Users:</source>
+    <target>Korisnici:</target>
+</phrase>
+<phrase>
+    <source>&amp;Close</source>
+    <target>&amp;Zatvori</target>
+</phrase>
+<phrase>
+    <source>&amp;Edit</source>
+    <target>&amp;Ispravi</target>
+</phrase>
+<phrase>
+    <source>List Users</source>
+    <target>Izlistaj korisnike:</target>
+</phrase>
+<phrase>
+    <source>Next</source>
+    <target>Dalje</target>
+</phrase>
+<phrase>
+    <source>Previous</source>
+    <target>Nazad</target>
+</phrase>
+<phrase>
+    <source>Delete</source>
+    <target>Briši</target>
+</phrase>
+<phrase>
+    <source>Show Expi&amp;red Components</source>
+    <target>Prikaži komponente van roka</target>
+</phrase>
+<phrase>
+    <source>Show &amp;Future Components</source>
+    <target>Prikaži komponente u planu</target>
+</phrase>
+<phrase>
+    <source>Revision Da&amp;te:</source>
+    <target>Datum pregleda:</target>
+</phrase>
+<phrase>
+    <source>Batch Size:</source>
+    <target>Ukupna veličina</target>
+</phrase>
+<phrase>
+    <source>Batch Size:</source>
+    <target>Ukupna veličina:</target>
+</phrase>
+<phrase>
+    <source>Bill of Materials:</source>
+    <target>Sastavnica materijala:</target>
+</phrase>
+<phrase>
+    <source>Total Qty. Per</source>
+    <target>Ukupna količina po:</target>
+</phrase>
+<phrase>
+    <source>Fixd. Qty.</source>
+    <target>Fiksna količina:</target>
+</phrase>
+<phrase>
+    <source></source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Customer Type</source>
+    <target>Tip kupca</target>
+</phrase>
+<phrase>
+    <source>P/O Number</source>
+    <target>Broj narudžbe</target>
+</phrase>
+<phrase>
+    <source>Start Date</source>
+    <target>Važi od</target>
+</phrase>
+<phrase>
+    <source>End Date</source>
+    <target>Važi do</target>
+</phrase>
+<phrase>
+    <source>Quote Date</source>
+    <target>Datum ponude</target>
+</phrase>
+<phrase>
+    <source>Expire Date</source>
+    <target>Datum isteka</target>
+</phrase>
+<phrase>
+    <source>Print...</source>
+    <target>Štampaj</target>
+</phrase>
+<phrase>
+    <source>Copy</source>
+    <target>Kopiraj</target>
+</phrase>
+<phrase>
+    <source>Show Expired</source>
+    <target>Prikaži istekle</target>
+</phrase>
+<phrase>
+    <source>Show Converted</source>
+    <target>Prikaži realizovane</target>
+</phrase>
+<phrase>
+    <source>Access Denied</source>
+    <target>Pristup odbijen</target>
+</phrase>
+<phrase>
+    <source>Weeks</source>
+    <target>Sedmica</target>
+</phrase>
+<phrase>
+    <source>Months</source>
+    <target>Mjeseci</target>
+</phrase>
+<phrase>
+    <source>Years</source>
+    <target>Godina</target>
+</phrase>
+<phrase>
+    <source>From:</source>
+    <target>Od:</target>
+</phrase>
+<phrase>
+    <source>Until:</source>
+    <target>Do:</target>
+</phrase>
+<phrase>
+    <source>Today</source>
+    <target>Danas</target>
+</phrase>
+<phrase>
+    <source>Forever</source>
+    <target>Beskrajno</target>
+</phrase>
+<phrase>
+    <source>Minutes</source>
+    <target>Minuta</target>
+</phrase>
+<phrase>
+    <source>Hours</source>
+    <target>Sahata</target>
+</phrase>
+<phrase>
+    <source>Custom</source>
+    <target>Po odabiru</target>
+</phrase>
+<phrase>
+    <source>Processing Error</source>
+    <target>Greška</target>
+</phrase>
+<phrase>
+    <source>Missing Data</source>
+    <target>Nedostaju podaci</target>
+</phrase>
+<phrase>
+    <source>Create Invoices</source>
+    <target>Priprema računa</target>
+</phrase>
+<phrase>
+    <source>Consolidate By Customer</source>
+    <target>Konsolidiraj po kupcu</target>
+</phrase>
+<phrase>
+    <source>Create Invoices</source>
+    <target>Kreiraj račune</target>
+</phrase>
+<phrase>
+    <source>Account Name:</source>
+    <target>Naziv računa:</target>
+</phrase>
+<phrase>
+    <source>Account Number:</source>
+    <target>Broj računa:</target>
+</phrase>
+<phrase>
+    <source>Organization</source>
+    <target>Prganizacija</target>
+</phrase>
+<phrase>
+    <source>Individual</source>
+    <target>Fizičko lice</target>
+</phrase>
+<phrase>
+    <source>Partner</source>
+    <target>Partner</target>
+</phrase>
+<phrase>
+    <source>Competitor</source>
+    <target>Konkurencija</target>
+</phrase>
+<phrase>
+    <source>Save</source>
+    <target>Spasi</target>
+</phrase>
+<phrase>
+    <source>Roles</source>
+    <target>Uloge</target>
+</phrase>
+<phrase>
+    <source>Sales Rep...</source>
+    <target>Agent...</target>
+</phrase>
+<phrase>
+    <source>Employee...</source>
+    <target>Radnik..</target>
+</phrase>
+<phrase>
+    <source>User...</source>
+    <target>Korisnik..</target>
+</phrase>
+<phrase>
+    <source>Owner:</source>
+    <target>Vlasnik:</target>
+</phrase>
+<phrase>
+    <source>Comments</source>
+    <target>Komentari</target>
+</phrase>
+<phrase>
+    <source>Characteristics</source>
+    <target>Karakteristike</target>
+</phrase>
+<phrase>
+    <source>Value</source>
+    <target>Vrijednost</target>
+</phrase>
+<phrase>
+    <source>Qty</source>
+    <target>Količina</target>
+</phrase>
+<phrase>
+    <source>Sold</source>
+    <target>Prodano</target>
+</phrase>
+<phrase>
+    <source>Registered</source>
+    <target>Registrovan</target>
+</phrase>
+<phrase>
+    <source>All</source>
+    <target>Svi</target>
+</phrase>
+<phrase>
+    <source>Activities</source>
+    <target>Aktivnosti</target>
+</phrase>
+<phrase>
+    <source>Registrations</source>
+    <target>Registracije</target>
+</phrase>
+<phrase>
+    <source>Account</source>
+    <target>Račun</target>
+</phrase>
+<phrase>
+    <source>Documents</source>
+    <target>Dokumenti</target>
+</phrase>
+<phrase>
+    <source>Merge CRM Accounts</source>
+    <target>Spoji CRM račune</target>
+</phrase>
+<phrase>
+    <source>Organization</source>
+    <target>Organizacija</target>
+</phrase>
+<phrase>
+    <source>Parent:</source>
+    <target>Matična firma</target>
+</phrase>
+<phrase>
+    <source>Prospect</source>
+    <target>Potencijalni</target>
+</phrase>
+<phrase>
+    <source>Tax Authority</source>
+    <target>Porezna uprava</target>
+</phrase>
+<phrase>
+    <source>Cannot Save CRM Account</source>
+    <target>Ne mogu spasiti CRM račun</target>
+</phrase>
+<phrase>
+    <source>User</source>
+    <target>Korisnik</target>
+</phrase>
+<phrase>
+    <source>Convert</source>
+    <target>Pretvori</target>
+</phrase>
+<phrase>
+    <source>Primary</source>
+    <target>Primarni</target>
+</phrase>
+<phrase>
+    <source>Secondary</source>
+    <target>Sekundarni</target>
+</phrase>
+<phrase>
+    <source>No Invoices to Post</source>
+    <target>Nema računa za slanje</target>
+</phrase>
+<phrase>
+    <source>Post All</source>
+    <target>Pošalji sve</target>
+</phrase>
+<phrase>
+    <source>Sales Orders</source>
+    <target>Narudžbe</target>
+</phrase>
+<phrase>
+    <source>Sales Orders:</source>
+    <target>Narudžbe:</target>
+</phrase>
+<phrase>
+    <source>Order #</source>
+    <target>Narudžba #</target>
+</phrase>
+<phrase>
+    <source>Scheduled</source>
+    <target>Planirano</target>
+</phrase>
+<phrase>
+    <source>New</source>
+    <target>Novi</target>
+</phrase>
+<phrase>
+    <source>Welcome</source>
+    <target>Dobrodošli</target>
+</phrase>
+<phrase>
+    <source>Do not show again.</source>
+    <target>Ne prikazuj više</target>
+</phrase>
+<phrase>
+    <source>&amp;Create Invoices...</source>
+    <target>&amp;Priprema računa</target>
+</phrase>
+<phrase>
+    <source>Quantity:</source>
+    <target>Količina:</target>
+</phrase>
+<phrase>
+    <source>UOM</source>
+    <target>JMJ</target>
+</phrase>
+<phrase>
+    <source>Class Code:</source>
+    <target>Klasa</target>
+</phrase>
+<phrase>
+    <source>Item Types</source>
+    <target>Vrsta artikla</target>
+</phrase>
+<phrase>
+    <source>Item Number</source>
+    <target>Šifra</target>
+</phrase>
+<phrase>
+    <source>Item Number Exists</source>
+    <target>Šifra artikla postoji</target>
+</phrase>
+<phrase>
+    <source>&amp;Target Item Number:</source>
+    <target>Tražena šifra artikla</target>
+</phrase>
+<phrase>
+    <source>Copy &amp;Item Costs</source>
+    <target>Kopiraj troškove artikla</target>
+</phrase>
+<phrase>
+    <source>Copy &amp;Bill of Materials</source>
+    <target>Kopiraj sastavnicu</target>
+</phrase>
+<phrase>
+    <source>Customer/Item Number</source>
+    <target>Šifra Artikla/Kupca</target>
+</phrase>
+<phrase>
+    <source>Need Item Number</source>
+    <target>Unesi šifru</target>
+</phrase>
+<phrase>
+    <source>You must specify an Item Number.</source>
+    <target>Morate unjeti šifru artikla</target>
+</phrase>
+<phrase>
+    <source>Enter a Valid Item Number</source>
+    <target>Unesite ispravnu šifru artikla</target>
+</phrase>
+<phrase>
+    <source>You must enter a valid Item Number.</source>
+    <target>Unesite ispravnu šifru artikla</target>
+</phrase>
+<phrase>
+    <source>Warranty</source>
+    <target>Garancija</target>
+</phrase>
+<phrase>
+    <source>Enter Item Number</source>
+    <target>Unesi broj računa</target>
+</phrase>
+<phrase>
+    <source>Please enter a valid Item Number.</source>
+    <target>Unesite ispravnu šifru artikla</target>
+</phrase>
+<phrase>
+    <source>Enter Item Number</source>
+    <target>Unesi šifru artikla</target>
+</phrase>
+<phrase>
+    <source>You must specify an Item Number</source>
+    <target>Morate unjeti šifru artikla</target>
+</phrase>
+<phrase>
+    <source> Item Number:</source>
+    <target>Šifra:</target>
+</phrase>
+<phrase>
+    <source>No Item Number Selected</source>
+    <target>Niste odabrali šifru artikla</target>
+</phrase>
+<phrase>
+    <source>More</source>
+    <target>Više</target>
+</phrase>
+<phrase>
+    <source>Manage</source>
+    <target>Uredi</target>
+</phrase>
+<phrase>
+    <source>Preview</source>
+    <target>Pregled</target>
+</phrase>
+<phrase>
+    <source>Items</source>
+    <target>Artikli</target>
+</phrase>
+<phrase>
+    <source>&amp;Yes</source>
+    <target>&amp;Da</target>
+</phrase>
+<phrase>
+    <source>&amp;No</source>
+    <target>&amp;Ne</target>
+</phrase>
+<phrase>
+    <source>Yes</source>
+    <target>Da</target>
+</phrase>
+<phrase>
+    <source>No</source>
+    <target>Ne</target>
+</phrase>
+<phrase>
+    <source>Item &amp;Number:</source>
+    <target>Šifra:</target>
+</phrase>
+<phrase>
+    <source>UOM:</source>
+    <target>JMJ:</target>
+</phrase>
+<phrase>
+    <source>Decription/Notes</source>
+    <target>Opis/Zabilješke</target>
+</phrase>
+<phrase>
+    <source>Source</source>
+    <target>Izvor</target>
+</phrase>
+<phrase>
+    <source>Credit</source>
+    <target>Kredit</target>
+</phrase>
+<phrase>
+    <source>Credit</source>
+    <target>Duguje</target>
+</phrase>
+<phrase>
+    <source>Summarized G/L Transactions</source>
+    <target>Zbirne finansijske transakcije</target>
+</phrase>
+<phrase>
+    <source>Debit</source>
+    <target>Potražuje</target>
+</phrase>
 </QPH>
