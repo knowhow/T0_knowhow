@@ -258,7 +258,7 @@
 </phrase>
 <phrase>
     <source>Sales Rep.</source>
-    <target>Agent</target>
+    <target>Zastupnik</target>
 </phrase>
 <phrase>
     <source>Notes</source>
@@ -554,7 +554,7 @@
 </phrase>
 <phrase>
     <source>Sales Rep:</source>
-    <target>Agent:</target>
+    <target>Zastupnik</target>
 </phrase>
 <phrase>
     <source>Terminal:</source>
@@ -1144,7 +1144,7 @@ What would you like to do?</source>
 </phrase>
 <phrase>
     <source>Sales Order</source>
-    <target>Prodaja</target>
+    <target>Prodajni nalog</target>
 </phrase>
 <phrase>
     <source>To-Do</source>
@@ -1356,7 +1356,7 @@ What would you like to do?</source>
 </phrase>
 <phrase>
     <source>Sales Rep...</source>
-    <target>Agent...</target>
+    <target>Zastupnik</target>
 </phrase>
 <phrase>
     <source>Employee...</source>
@@ -1464,11 +1464,11 @@ What would you like to do?</source>
 </phrase>
 <phrase>
     <source>Sales Orders</source>
-    <target>Narudžbe</target>
+    <target>Prodajni nalozi</target>
 </phrase>
 <phrase>
     <source>Sales Orders:</source>
-    <target>Narudžbe:</target>
+    <target>Prodajni nalozi:</target>
 </phrase>
 <phrase>
     <source>Order #</source>
@@ -1648,7 +1648,7 @@ What would you like to do?</source>
 </phrase>
 <phrase>
     <source>Sales Rep.:</source>
-    <target>Agent</target>
+    <target>Zastupnik</target>
 </phrase>
 <phrase>
     <source>E&amp;xpire:</source>
@@ -2409,5 +2409,645 @@ What would you like to do?</source>
 <phrase>
     <source>Item quantity</source>
     <target>Količina:</target>
+</phrase>
+<phrase>
+    <source>COS Accnt. #</source>
+    <target>Troškovi - račun #</target>
+</phrase>
+<phrase>
+    <source>Invoice Number:</source>
+    <target>Broj računa:</target>
+</phrase>
+<phrase>
+    <source>Sales History Information</source>
+    <target>Istorija prodaje</target>
+</phrase>
+<phrase>
+    <source>Order Number:</source>
+    <target>Broj narudžbe:</target>
+</phrase>
+<phrase>
+    <source>Shipped:</source>
+    <target>Isporučeno:</target>
+</phrase>
+<phrase>
+    <source>Extended Price:</source>
+    <target>Iznos</target>
+</phrase>
+<phrase>
+    <source>Extended Cost:</source>
+    <target>Trošak</target>
+</phrase>
+<phrase>
+    <source>Paid</source>
+    <target>Plaćeno</target>
+</phrase>
+<phrase>
+    <source>Open Line...</source>
+    <target>Otvori red</target>
+</phrase>
+<phrase>
+    <source>Edit Line...</source>
+    <target>Ispravi red</target>
+</phrase>
+<phrase>
+    <source>Close Line...</source>
+    <target>Zatvori red</target>
+</phrase>
+<phrase>
+    <source>Delete Line...</source>
+    <target>Briši red</target>
+</phrase>
+<phrase>
+    <source>Return Stock</source>
+    <target>Povrat</target>
+</phrase>
+<phrase>
+    <source>Issue Stock...</source>
+    <target>Skini sa stanja</target>
+</phrase>
+<phrase>
+    <source>View Purchase Order...</source>
+    <target>Pogledaj narudžbu</target>
+</phrase>
+<phrase>
+    <source>Edit Purchase Order...</source>
+    <target>Ispravi narudžbu</target>
+</phrase>
+<phrase>
+    <source>Cancel Sales Order?</source>
+    <target>Otkaži narudžbu</target>
+</phrase>
+<phrase>
+    <source>Insufficient Inventory</source>
+    <target>Nema robe na stanju</target>
+</phrase>
+<phrase>
+    <source>Update all prices?</source>
+    <target>Izmjeniti cijene </target>
+</phrase>
+<phrase>
+    <source>Order Date Required</source>
+    <target>Unesiti datum narudžbe:</target>
+</phrase>
+<phrase>
+    <source>From Quote:</source>
+    <target>Na osnovu:</target>
+</phrase>
+<phrase>
+    <source>Save and Add to Packing List &amp;Batch</source>
+    <target>Spasi i dodaj u paking listu</target>
+</phrase>
+<phrase>
+    <source>    Name:</source>
+    <target>Naziv:</target>
+</phrase>
+<phrase>
+    <source>Packing</source>
+    <target>Pakiranje</target>
+</phrase>
+<phrase>
+    <source>Authorize</source>
+    <target>Odobri</target>
+</phrase>
+<phrase>
+    <source>Charge</source>
+    <target>Na teret</target>
+</phrase>
+<phrase>
+    <source>CVV Code:</source>
+    <target>CVV broj:</target>
+</phrase>
+<phrase>
+    <source>Delete Quote?</source>
+    <target>Briši ponudu</target>
+</phrase>
+<phrase>
+    <source>Delete Sales Order?</source>
+    <target>Briši narudžbu ?</target>
+</phrase>
+<phrase>
+    <source>Delete Quote?</source>
+    <target>Briši ponudu ?</target>
+</phrase>
+<phrase>
+    <source>Firm</source>
+    <target>Naziv firme</target>
+</phrase>
+<phrase>
+    <source>On Order</source>
+    <target>Na narudžbi</target>
+</phrase>
+<phrase>
+    <source>Quantity Can Not be Updated</source>
+    <target>Količine se ne može mijenjati</target>
+</phrase>
+<phrase>
+    <source>Line #:</source>
+    <target>Linija #:</target>
+</phrase>
+<phrase>
+    <source>Sales Order Item</source>
+    <target>Stavka prodajnog naloga</target>
+</phrase>
+<phrase>
+    <source>Pre&amp;vious</source>
+    <target>Prethodna</target>
+</phrase>
+<phrase>
+    <source>Ne&amp;xt</source>
+    <target>Slijedeća</target>
+</phrase>
+<phrase>
+    <source>Cance&amp;l Item</source>
+    <target>Otkaži</target>
+</phrase>
+<phrase>
+    <source>Comm. &amp;Prcnt.:</source>
+    <target>Provizija u %</target>
+</phrase>
+<phrase>
+    <source>After</source>
+    <target>Nakon</target>
+</phrase>
+<phrase>
+    <source>Scrap Qty.:</source>
+    <target>Kalo.:</target>
+</phrase>
+<phrase>
+    <source>Notes:</source>
+    <target>Bilješke:</target>
+</phrase>
+<phrase>
+    <source>Transaction Canceled</source>
+    <target>Transakcija poništena</target>
+</phrase>
+<phrase>
+    <source>Name</source>
+    <target>Naziv</target>
+</phrase>
+<phrase>
+    <source>Change Qty Ordered?</source>
+    <target>Izmjeni poručenu količinu</target>
+</phrase>
+<phrase>
+    <source>Order Q&amp;ty.:</source>
+    <target>Količina:</target>
+</phrase>
+<phrase>
+    <source>Order Due Date:</source>
+    <target>Prodaja važi do:</target>
+</phrase>
+<phrase>
+    <source>&amp;Qty. Ordered:</source>
+    <target>Poručena količina</target>
+</phrase>
+<phrase>
+    <source>&amp;Promised Date:</source>
+    <target>Dogovoreni datum:</target>
+</phrase>
+<phrase>
+    <source>Due Date:</source>
+    <target>Rok isporuke:</target>
+</phrase>
+<phrase>
+    <source>Su&amp;bstitute for:</source>
+    <target>Zamjena za:</target>
+</phrase>
+<phrase>
+    <source>Qty.  &amp;UOM:</source>
+    <target>JMJ za količinu:</target>
+</phrase>
+<phrase>
+    <source>&amp;Net Unit Price:</source>
+    <target>Neto cijena </target>
+</phrase>
+<phrase>
+    <source>Pric&amp;e UOM:</source>
+    <target>Cijena JMJ</target>
+</phrase>
+<phrase>
+    <source>Suppl&amp;y</source>
+    <target>Stanje</target>
+</phrase>
+<phrase>
+    <source>On Hand:</source>
+    <target>Stvarno stanje</target>
+</phrase>
+<phrase>
+    <source>Allocated:</source>
+    <target>Alocirano</target>
+</phrase>
+<phrase>
+    <source>Unallocated:</source>
+    <target>Nealocirano:</target>
+</phrase>
+<phrase>
+    <source>On Order:</source>
+    <target>Poručeno:</target>
+</phrase>
+<phrase>
+    <source>Available:</source>
+    <target>Dostupno:</target>
+</phrase>
+<phrase>
+    <source>Accountin&amp;g</source>
+    <target>Računovodstvo</target>
+</phrase>
+<phrase>
+    <source>Qty. Shipped:</source>
+    <target>Isporučeno:</target>
+</phrase>
+<phrase>
+    <source>Cust &amp;Discount %</source>
+    <target>Ugovoreni popust %</target>
+</phrase>
+<phrase>
+    <source>Create Work Order</source>
+    <target>Kreiraj nalog za proizvodnju</target>
+</phrase>
+<phrase>
+    <source>Costs</source>
+    <target>Troškovi</target>
+</phrase>
+<phrase>
+    <source>Unit Cost (Inv. UOM):</source>
+    <target>Cijena po JMJ</target>
+</phrase>
+<phrase>
+    <source>List Discount %:</source>
+    <target>Popust:</target>
+</phrase>
+<phrase>
+    <source>Invalid Quantity</source>
+    <target>Količina nije ispravna</target>
+</phrase>
+<phrase>
+    <source>Show Availability</source>
+    <target>Dostupnost</target>
+</phrase>
+<phrase>
+    <source>Inventory</source>
+    <target>Stanje</target>
+</phrase>
+<phrase>
+    <source>Return Auth. #:</source>
+    <target>Povrat odobrava #:</target>
+</phrase>
+<phrase>
+    <source>Drop Ship</source>
+    <target>Isporuči</target>
+</phrase>
+<phrase>
+    <source>Override Price:</source>
+    <target>Ispravi cijenu</target>
+</phrase>
+<phrase>
+    <source>Customer Price:</source>
+    <target>Cijena za kupca</target>
+</phrase>
+<phrase>
+    <source>Relationships</source>
+    <target>Registracije</target>
+</phrase>
+<phrase>
+    <source>Customer P/N:</source>
+    <target>Kataloški broj:</target>
+</phrase>
+<phrase>
+    <source>Qty. Ordered:</source>
+    <target>Poručena količina</target>
+</phrase>
+<phrase>
+    <source>Qty. Billed:</source>
+    <target>Fakturisana količina:</target>
+</phrase>
+<phrase>
+    <source>Net Unit Price:</source>
+    <target>Cijena/kom</target>
+</phrase>
+<phrase>
+    <source>Qty. UOM:</source>
+    <target>JMJ za količinu</target>
+</phrase>
+<phrase>
+    <source>Update Inventory</source>
+    <target>Ažuriraj stanje</target>
+</phrase>
+<phrase>
+    <source>Cust. P/O #</source>
+    <target>Narudžba#</target>
+</phrase>
+<phrase>
+    <source>Selected</source>
+    <target>Odabrani</target>
+</phrase>
+<phrase>
+    <source>Running</source>
+    <target>U toku</target>
+</phrase>
+<phrase>
+    <source>All Bank Accounts</source>
+    <target>Svi žiro računi</target>
+</phrase>
+<phrase>
+    <source>Bank Account:</source>
+    <target>Žiro račun:</target>
+</phrase>
+<phrase>
+    <source>Bank Accnt.</source>
+    <target>Žiro račun:</target>
+</phrase>
+<phrase>
+    <source>Inv. #</source>
+    <target>Račun #</target>
+</phrase>
+<phrase>
+    <source>P/O #</source>
+    <target>Narudžba.#</target>
+</phrase>
+<phrase>
+    <source>Payment Selections:</source>
+    <target>Vrsta plaćanja:</target>
+</phrase>
+<phrase>
+    <source>Clear Selection</source>
+    <target>Obriši odabrano</target>
+</phrase>
+<phrase>
+    <source>List Selected Payments</source>
+    <target>Prikaži odabrana plaćanja</target>
+</phrase>
+<phrase>
+    <source>Running (%1)</source>
+    <target>U toku (%1)</target>
+</phrase>
+<phrase>
+    <source>Voucher</source>
+    <target>Vaučer</target>
+</phrase>
+<phrase>
+    <source>Returned</source>
+    <target>Vračeno</target>
+</phrase>
+<phrase>
+    <source>Uninvoiced</source>
+    <target>Nije fakturisano</target>
+</phrase>
+<phrase>
+    <source>No Ship Date Entered</source>
+    <target>Nema unesen datum isporuke</target>
+</phrase>
+<phrase>
+    <source>No Misc. Charge Account Number</source>
+    <target>Nema unesen račun za plaćanje</target>
+</phrase>
+<phrase>
+    <source>Select Order for Billing</source>
+    <target>Odaberi ponudu za plaćanje</target>
+</phrase>
+<phrase>
+    <source>Sales Order #:</source>
+    <target>Prodajni nalog #:</target>
+</phrase>
+<phrase>
+    <source>Cust. Name:</source>
+    <target>Naziv kupca:</target>
+</phrase>
+<phrase>
+    <source>P/O Number:</source>
+    <target>Broj narudžbe:</target>
+</phrase>
+<phrase>
+    <source>Ship-To Name:</source>
+    <target>Isporuka na ime:</target>
+</phrase>
+<phrase>
+    <source>&amp;Edit Order</source>
+    <target>Ispravi narudžbu</target>
+</phrase>
+<phrase>
+    <source>Show Closed Line Items</source>
+    <target>Prikaži zatvorene artikle</target>
+</phrase>
+<phrase>
+    <source>Select &amp;Balance</source>
+    <target>Stanje</target>
+</phrase>
+<phrase>
+    <source>Ship Via:</source>
+    <target>Isporuka putem:</target>
+</phrase>
+<phrase>
+    <source>Close all Open Items</source>
+    <target>Zatvori sve otvorene artikle</target>
+</phrase>
+<phrase>
+    <source>Payment Received:</source>
+    <target>Uplata primljena</target>
+</phrase>
+<phrase>
+    <source>&lt;p&gt;You must enter a Ship Date before selecting this order for billing.</source>
+    <target>Morate odabrati datum isporuke prije odabiranja ponude za fakturisanje</target>
+</phrase>
+<phrase>
+    <source>Ca&amp;ncel</source>
+    <target>&amp;Otkaži</target>
+</phrase>
+<phrase>
+    <source>Misc. Amount:</source>
+    <target>Razno:</target>
+</phrase>
+<phrase>
+    <source>Misc. Charge Account:</source>
+    <target>Razni troškovi:</target>
+</phrase>
+<phrase>
+    <source>Cannot Save Sales Order</source>
+    <target>Ne mogu spasiti prodajni nalog</target>
+</phrase>
+<phrase>
+    <source>You must enter a Customer P/O for this Sales Order before you may save it.</source>
+    <target>Morate unijeti broj narudžbe kupca da bi ažurirali prodajni nalog</target>
+</phrase>
+<phrase>
+    <source>Billing List:</source>
+    <target>Lista ponuda:</target>
+</phrase>
+<phrase>
+    <source>Cust. #</source>
+    <target>Kupac#</target>
+</phrase>
+<phrase>
+    <source>Bank Account</source>
+    <target>Žiro račun:</target>
+</phrase>
+<phrase>
+    <source>Funds Type</source>
+    <target>Vrsta sradstava</target>
+</phrase>
+<phrase>
+    <source>Certified Check</source>
+    <target>Certificirani ček</target>
+</phrase>
+<phrase>
+    <source>Payment Rec&apos;d</source>
+    <target>Uplata primljena</target>
+</phrase>
+<phrase>
+    <source>Cannot Create one or more Invoices</source>
+    <target>Ne mogu kreirati jedan ili više računa</target>
+</phrase>
+<phrase>
+    <source>Cust. #</source>
+    <target>Kupac#</target>
+</phrase>
+<phrase>
+    <source>Cancel Billing</source>
+    <target>Poništi fakturisanje</target>
+</phrase>
+<phrase>
+    <source>Billing Selections</source>
+    <target>Odabir za fakturisanje</target>
+</phrase>
+<phrase>
+    <source>Billing List:</source>
+    <target>Lista za fakturisanje</target>
+</phrase>
+<phrase>
+    <source>Create &amp;All</source>
+    <target>Kreiraj sve</target>
+</phrase>
+<phrase>
+    <source>Create &amp;Invoice</source>
+    <target>Kreiraj račun</target>
+</phrase>
+<phrase>
+    <source>Misc.</source>
+    <target>Razno</target>
+</phrase>
+<phrase>
+    <source>Billing &amp;Selections...</source>
+    <target>Odabir za fakturisanje</target>
+</phrase>
+<phrase>
+    <source>Billing Selections</source>
+    <target>Odabir za fakturisanje</target>
+</phrase>
+<phrase>
+    <source>All Customer Types</source>
+    <target>Svi kupci</target>
+</phrase>
+<phrase>
+    <source>Selected:</source>
+    <target>Odabrani:</target>
+</phrase>
+<phrase>
+    <source>Return Authorization</source>
+    <target>Povrat odobrava</target>
+</phrase>
+<phrase>
+    <source>Pattern:</source>
+    <target>Uzorak:</target>
+</phrase>
+<phrase>
+    <source>Customer Type:</source>
+    <target>Tip kupca:</target>
+</phrase>
+<phrase>
+    <source>Accepts Backorders</source>
+    <target>Prihvata povrat narudžbi</target>
+</phrase>
+<phrase>
+    <source>Accepts Partial Shipments</source>
+    <target>Prihvata djelimičnu isporuku</target>
+</phrase>
+<phrase>
+    <source>Credit Limit:</source>
+    <target>Kreditni limit:</target>
+</phrase>
+<phrase>
+    <source>Credit Rating:</source>
+    <target>Kreditni rejting:</target>
+</phrase>
+<phrase>
+    <source>Copy #</source>
+    <target>Kopiraj#</target>
+</phrase>
+<phrase>
+    <source>Watermark</source>
+    <target>Vodeni žig</target>
+</phrase>
+<phrase>
+    <source>Show Prices</source>
+    <target>Prikaži cijene</target>
+</phrase>
+<phrase>
+    <source>&amp;Product:</source>
+    <target>Proizvod:</target>
+</phrase>
+<phrase>
+    <source>Pac&amp;kaging:</source>
+    <target>Pakiranje</target>
+</phrase>
+<phrase>
+    <source>Weight in </source>
+    <target>Težina u:</target>
+</phrase>
+<phrase>
+    <source>Pac&amp;kaging:</source>
+    <target>Pakiranje:</target>
+</phrase>
+<phrase>
+    <source>&amp;Packages...</source>
+    <target>&amp;Paketi</target>
+</phrase>
+<phrase>
+    <source>Warranty:</source>
+    <target>Garancija:</target>
+</phrase>
+<phrase>
+    <source>Days</source>
+    <target>Dana</target>
+</phrase>
+<phrase>
+    <source>Unit Price UOM:</source>
+    <target>Cijena JMJ</target>
+</phrase>
+<phrase>
+    <source>Extended Description</source>
+    <target>Detaljan opis</target>
+</phrase>
+<phrase>
+    <source>Conversions</source>
+    <target>Konverzije</target>
+</phrase>
+<phrase>
+    <source>Sites</source>
+    <target>Prodajna mjesta</target>
+</phrase>
+<phrase>
+    <source>Sources</source>
+    <target>Porijeklo</target>
+</phrase>
+<phrase>
+    <source>Tax is Recoverable</source>
+    <target>Porez je nadoknadiv</target>
+</phrase>
+<phrase>
+    <source>Pro&amp;ject</source>
+    <target>Projekat</target>
+</phrase>
+<phrase>
+    <source>Costs...</source>
+    <target>Troškovi...</target>
+</phrase>
+<phrase>
+    <source>Inventory...</source>
+    <target>Stanje artikala</target>
+</phrase>
+<phrase>
+    <source>Materials...</source>
+    <target>Materijali</target>
 </phrase>
 </QPH>
