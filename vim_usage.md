@@ -12,6 +12,8 @@ Korisne komande
 
 `:pwd`  - prikaži tekući direktorij
 
+`:set ff=unix - setuj file format to unix 
+
 ## normal mode
 
 `<c-W> lijeva / desna / gore / dole strelica` -  pomjeranje prozora u fokusu
