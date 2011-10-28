@@ -266,7 +266,8 @@
 </phrase>
 <phrase>
     <source>Site</source>
-    <target>Prodajno mjesto</target>
+    <target>Org. jed.</target>
+    <definition>Organizaciona jedinica</definition>
 </phrase>
 <phrase>
     <source>Terminal</source>
@@ -562,7 +563,7 @@
 </phrase>
 <phrase>
     <source>Site:</source>
-    <target>Prodajno mjesto:</target>
+    <target>Org. jed:</target>
 </phrase>
 <phrase>
     <source>Tax Zone:</source>
@@ -3024,7 +3025,7 @@ What would you like to do?</source>
 </phrase>
 <phrase>
     <source>Sites</source>
-    <target>Prodajna mjesta</target>
+    <target>Org. jedinice</target>
 </phrase>
 <phrase>
     <source>Sources</source>
@@ -3049,5 +3050,685 @@ What would you like to do?</source>
 <phrase>
     <source>Materials...</source>
     <target>Materijali</target>
+</phrase>
+<phrase>
+    <source>Totals</source>
+    <target>Ukupno</target>
+</phrase>
+<phrase>
+    <source>Remember Sort Order</source>
+    <target>Upamti sortiranje</target>
+</phrase>
+<phrase>
+    <source>Do Not Remember Sort Order</source>
+    <target>Izbriši sortiranje</target>
+</phrase>
+<phrase>
+    <source>Export Save Filename</source>
+    <target>Unesi naziv fajla</target>
+</phrase>
+<phrase>
+    <source>Reset this Width</source>
+    <target>Resetuj ovu širinu</target>
+</phrase>
+<phrase>
+    <source>Copy to Clipboard</source>
+    <target>Kopiraj u Clipboard</target>
+</phrase>
+<phrase>
+    <source>Row</source>
+    <target>Red</target>
+</phrase>
+<phrase>
+    <source>Cell</source>
+    <target>Čelija</target>
+</phrase>
+<phrase>
+    <source>Export As...</source>
+    <target>Izvezi kao</target>
+</phrase>
+<phrase>
+    <source>Reset all Widths</source>
+    <target>Resetuj sve širine</target>
+</phrase>
+<phrase>
+    <source>Remember Widths</source>
+    <target>Upamti širine</target>
+</phrase>
+<phrase>
+    <source>Do Not Remember Widths</source>
+    <target>Izbriši širine</target>
+</phrase>
+<phrase>
+    <source>Stop</source>
+    <target>Zaustavi</target>
+</phrase>
+<phrase>
+    <source> WriteText:</source>
+    <target>Unesi tekst:</target>
+</phrase>
+<phrase>
+    <source>ReadText:</source>
+    <target>Pročitaj tekst</target>
+</phrase>
+<phrase>
+    <source>File Control Demo</source>
+    <target>Demo upravljanja fajlovima</target>
+</phrase>
+<phrase>
+    <source>Current Path:</source>
+    <target>Trenutna putanja:</target>
+</phrase>
+<phrase>
+    <source>Home Path:  </source>
+    <target>Home putanja:</target>
+</phrase>
+<phrase>
+    <source>Root Path:    </source>
+    <target>Root putanja:</target>
+</phrase>
+<phrase>
+    <source>File Name:   </source>
+    <target>Naziv Fajla:</target>
+</phrase>
+<phrase>
+    <source>Make Path: </source>
+    <target>Napravi putanju:</target>
+</phrase>
+<phrase>
+    <source>File Exists</source>
+    <target>Fajl postoji</target>
+</phrase>
+<phrase>
+    <source>Copy File</source>
+    <target>Kopiraj fajl</target>
+</phrase>
+<phrase>
+    <source>Delete File</source>
+    <target>Obriši fajl</target>
+</phrase>
+<phrase>
+    <source>View URL</source>
+    <target>Pregledaj URL</target>
+</phrase>
+<phrase>
+    <source>Read File</source>
+    <target>Učitaj fajl</target>
+</phrase>
+<phrase>
+    <source>Remove Path</source>
+    <target>Ukloni putanju</target>
+</phrase>
+<phrase>
+    <source>ReadText:</source>
+    <target>Pročitaj tekst:</target>
+</phrase>
+<phrase>
+    <source>Start Date:</source>
+    <target>Važi od:</target>
+</phrase>
+<phrase>
+    <source>Period Length:</source>
+    <target>Dužina perioda:</target>
+</phrase>
+<phrase>
+    <source>End Date:</source>
+    <target>Važi do:</target>
+</phrase>
+<phrase>
+    <source>Closed</source>
+    <target>Zatvoren</target>
+</phrase>
+<phrase>
+    <source>Frozen</source>
+    <target>Zaleđen</target>
+</phrase>
+<phrase>
+    <source>Cannot Save Period</source>
+    <target>Ne mogu snimiti period</target>
+</phrase>
+<phrase>
+    <source>The start date must be less than the end date.</source>
+    <target>Važi od: mora biti ranije od Važi do datuma</target>
+</phrase>
+<phrase>
+    <source>Period dates are outside the selected Fiscal Year.</source>
+    <target>Datum period je van fiskalne godine</target>
+</phrase>
+<phrase>
+    <source>Fiscal Year:</source>
+    <target>Fiskalna godina:</target>
+</phrase>
+<phrase>
+    <source>Quarter:</source>
+    <target>Četvrt godine</target>
+</phrase>
+<phrase>
+    <source>Accounting Period</source>
+    <target>Računovodstveni period</target>
+</phrase>
+<phrase>
+    <source>Year</source>
+    <target>Godina</target>
+</phrase>
+<phrase>
+    <source>Close...</source>
+    <target>Zatvori</target>
+</phrase>
+<phrase>
+    <source>Open...</source>
+    <target>Otvori</target>
+</phrase>
+<phrase>
+    <source>Freeze...</source>
+    <target>Zaledi</target>
+</phrase>
+<phrase>
+    <source>Thaw...</source>
+    <target>Odmrzni</target>
+</phrase>
+<phrase>
+    <source>Accounting Periods:</source>
+    <target>Računovodstveni period</target>
+</phrase>
+<phrase>
+    <source>Close Period</source>
+    <target>Zatvorio Period</target>
+</phrase>
+<phrase>
+    <source>Freeze Period</source>
+    <target>Zaledi period</target>
+</phrase>
+<phrase>
+    <source>Qtr</source>
+    <target>Četvrt</target>
+</phrase>
+<phrase>
+    <source>Frozen</source>
+    <target>Zaleđen</target>
+</phrase>
+<phrase>
+    <source>Start</source>
+    <target>Početak</target>
+</phrase>
+<phrase>
+    <source>Freight &amp;Class:</source>
+    <target>Vrsta transporta</target>
+</phrase>
+<phrase>
+    <source>Freight Class</source>
+    <target>Vrsta transporta</target>
+</phrase>
+<phrase>
+    <source>No Freight Class Entered</source>
+    <target>Vrsta transporta nije unesena</target>
+</phrase>
+<phrase>
+    <source>You must enter a valid Freight Class before saving this Item Type.</source>
+    <target>Morate unijeti vrstu transporta</target>
+</phrase>
+<phrase>
+    <source>From</source>
+    <target>Od:</target>
+</phrase>
+<phrase>
+    <source>To</source>
+    <target>Do</target>
+</phrase>
+<phrase>
+    <source>Ship Via</source>
+    <target>Isporuka putem:</target>
+</phrase>
+<phrase>
+    <source>Total Weight</source>
+    <target>Ukupna težina</target>
+</phrase>
+<phrase>
+    <source>Calculated</source>
+    <target>Kalkuliraj</target>
+</phrase>
+<phrase>
+    <source>Manual</source>
+    <target>Ručno</target>
+</phrase>
+<phrase>
+    <source>Freight Breakdown for Sales Order:</source>
+    <target>Raspored transporta po prodajnom nalogu</target>
+</phrase>
+<phrase>
+    <source>Freight Breakdown for Quote:</source>
+    <target>Raspored transporta po ponudi</target>
+</phrase>
+<phrase>
+    <source>Freight Breakdown for Return Auth.:</source>
+    <target>Raspored transporta po povratu</target>
+</phrase>
+<phrase>
+    <source>Freight Breakdown</source>
+    <target>Raspored transporta</target>
+</phrase>
+<phrase>
+    <source>Freight Breakdown for Document:</source>
+    <target>Raspored transporta po dokumentu</target>
+</phrase>
+<phrase>
+    <source>Alias Number</source>
+    <target>Alias br.</target>
+</phrase>
+<phrase>
+    <source>Rank</source>
+    <target>Rang</target>
+</phrase>
+<phrase>
+    <source>Ratio</source>
+    <target>Obim</target>
+</phrase>
+<phrase>
+    <source>Cntrl. Method</source>
+    <target>Metod kontole</target>
+</phrase>
+<phrase>
+    <source>Cannot Save Item</source>
+    <target>Ne mogu spasiti artikal</target>
+</phrase>
+<phrase>
+    <source>You may not rename this Item to the entered Item Number as it is in use by another Item.</source>
+    <target>Nije dopuštena izmjena broja artikla, broj se koristi</target>
+</phrase>
+<phrase>
+    <source>You must enter a Item Number for this Item before continuing.</source>
+    <target>Morate unijeti broj artikla</target>
+</phrase>
+<phrase>
+    <source>You must select an Item Type for this Item Type before continuing.</source>
+    <target>Morate unijeti tip artikla</target>
+</phrase>
+<phrase>
+    <source>You must select a Class Code for this Item before continuing.</source>
+    <target>Morate unijeti šifru artikla</target>
+</phrase>
+<phrase>
+    <source>You must select an Inventory Unit of Measure for this Item before continuing.</source>
+    <target>Morate unijeti JMJ za artikal</target>
+</phrase>
+<phrase>
+    <source>All Sites</source>
+    <target>Sve Org. jed.</target>
+</phrase>
+<phrase>
+    <source>Work Order #:</source>
+    <target>Radni nalog #</target>
+</phrase>
+<phrase>
+    <source>Write File</source>
+    <target>Zapiši fajl</target>
+</phrase>
+<phrase>
+    <source>Rename File</source>
+    <target>Reimenuj fajl</target>
+</phrase>
+<phrase>
+    <source>Make Path</source>
+    <target>Kreiraj putanju</target>
+</phrase>
+<phrase>
+    <source>Calendar Name:</source>
+    <target>Naziv kalendara</target>
+</phrase>
+<phrase>
+    <source>Calendar Name:</source>
+    <target>Naziv kalendara:</target>
+</phrase>
+<phrase>
+    <source>Period Name:</source>
+    <target>Naziv perioda:</target>
+</phrase>
+<phrase>
+    <source>Number:</source>
+    <target>Broj:</target>
+</phrase>
+<phrase>
+    <source>Cust. PO #:</source>
+    <target>Narudžba kupca#:</target>
+</phrase>
+<phrase>
+    <source>&amp;F.O.B.:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Allocated C/M&apos;s:</source>
+    <target>Iskorišteni kredit</target>
+</phrase>
+<phrase>
+    <source>Cannot Save Invoice</source>
+    <target>Ne mogu ažurirati račun</target>
+</phrase>
+<phrase>
+    <source>Image Description:</source>
+    <target>Opis slike:</target>
+</phrase>
+<phrase>
+    <source>List Item Images</source>
+    <target>Pogledaj slike atrikla</target>
+</phrase>
+<phrase>
+    <source>Inventory Description</source>
+    <target>Opis grupe</target>
+</phrase>
+<phrase>
+    <source>Product Description</source>
+    <target>Opis proizvoda</target>
+</phrase>
+<phrase>
+    <source>Engineering Reference</source>
+    <target>Inžinjerske reference</target>
+</phrase>
+<phrase>
+    <source>Sold </source>
+    <target>Prodano</target>
+</phrase>
+<phrase>
+    <source>Active </source>
+    <target>Aktivan</target>
+</phrase>
+<phrase>
+    <source>Purchased and Manufactured </source>
+    <target>Nabavljeno i Proizvedeno</target>
+</phrase>
+<phrase>
+    <source>Purchased </source>
+    <target>Nabavljeno</target>
+</phrase>
+<phrase>
+    <source>Manufactured </source>
+    <target>Proizvedeno</target>
+</phrase>
+<phrase>
+    <source>Breeder </source>
+    <target>Uzgoj</target>
+</phrase>
+<phrase>
+    <source>Co-Product and By-Product </source>
+    <target>Nus Proizvod</target>
+</phrase>
+<phrase>
+    <source>Costing </source>
+    <target>Troškovi</target>
+</phrase>
+<phrase>
+    <source>Component </source>
+    <target>Komponenta</target>
+</phrase>
+<phrase>
+    <source>Kit Components </source>
+    <target>Kit komponenta</target>
+</phrase>
+<phrase>
+    <source>Item List</source>
+    <target>Lista artikala</target>
+</phrase>
+<phrase>
+    <source>Show &amp;Inactive Items</source>
+    <target>Prikaži neaktivne artikle</target>
+</phrase>
+<phrase>
+    <source>&amp;Make Items Only</source>
+    <target>Samo proizvodi</target>
+</phrase>
+<phrase>
+    <source>&amp;Buy Items Only</source>
+    <target>Samo roba</target>
+</phrase>
+<phrase>
+    <source>Item List Price</source>
+    <target>Cijena liste artikala</target>
+</phrase>
+<phrase>
+    <source>List Price:</source>
+    <target>Cijena</target>
+</phrase>
+<phrase>
+    <source>Price UOM:</source>
+    <target>Cijena JMJ:</target>
+</phrase>
+<phrase>
+    <source>Inv./Price Ratio:</source>
+    <target>Odnos cjene/stanja</target>
+</phrase>
+<phrase>
+    <source>Inventory UOM Price:</source>
+    <target>JMJ Cijena</target>
+</phrase>
+<phrase>
+    <source>Cost:</source>
+    <target>Trošak:</target>
+</phrase>
+<phrase>
+    <source>Actual</source>
+    <target>Stvarna</target>
+</phrase>
+<phrase>
+    <source>Always</source>
+    <target>Uvijek</target>
+</phrase>
+<phrase>
+    <source>Never</source>
+    <target>Nikada</target>
+</phrase>
+<phrase>
+    <source>Item/Prod. Cat.</source>
+    <target>Kategorija proizvoda/artikla</target>
+</phrase>
+<phrase>
+    <source>Qty. Break</source>
+    <target>Kol. prag za popust</target>
+</phrase>
+<phrase>
+    <source>Price/Discount</source>
+    <target>Popust na iznos:</target>
+</phrase>
+<phrase>
+    <source>Fixed Discount</source>
+    <target>Fiksni popust</target>
+</phrase>
+<phrase>
+    <source>Discounted Price</source>
+    <target>Cijena sa popustom</target>
+</phrase>
+<phrase>
+    <source>Method</source>
+    <target>Metoda</target>
+</phrase>
+<phrase>
+    <source>Enter Effective Date</source>
+    <target>Unesi datum stupanja</target>
+</phrase>
+<phrase>
+    <source>Enter Expiration Date</source>
+    <target>Datum isteka</target>
+</phrase>
+<phrase>
+    <source>Pricing Schedule</source>
+    <target>Cjenovni plan</target>
+</phrase>
+<phrase>
+    <source>Schedule:</source>
+    <target>Planiraj</target>
+</phrase>
+<phrase>
+    <source>Enter Name</source>
+    <target>Unesi naziv</target>
+</phrase>
+<phrase>
+    <source>You must enter a Name for this Pricing Schedule.</source>
+    <target>Morate unijeti naziv plana</target>
+</phrase>
+<phrase>
+    <source>Pricing Schedule Already Exists</source>
+    <target>Plan postoji</target>
+</phrase>
+<phrase>
+    <source>A Pricing Schedule with the entered Name already exists.</source>
+    <target>Postoji plan sa ovim nazivom, odaberiti novi</target>
+</phrase>
+<phrase>
+    <source>Flat Rate</source>
+    <target>Fiksna cjena</target>
+</phrase>
+<phrase>
+    <source>Price Per UOM</source>
+    <target>Cijena po JMJ</target>
+</phrase>
+<phrase>
+    <source>Product Category</source>
+    <target>Kategorija proizvoda</target>
+</phrase>
+<phrase>
+    <source>&amp;Qty. Break (Inventory UOM):</source>
+    <target>Kol. prag za popust - JMJ</target>
+</phrase>
+<phrase>
+    <source>List Price:</source>
+    <target>Cijena:</target>
+</phrase>
+<phrase>
+    <source>Nominal</source>
+    <target>Nominalna</target>
+</phrase>
+<phrase>
+    <source>Price UOM:</source>
+    <target>Cijena JMJ:</target>
+</phrase>
+<phrase>
+    <source>Product Category:</source>
+    <target>Kategorija proizvoda</target>
+</phrase>
+<phrase>
+    <source>&amp;Price:</source>
+    <target>Cijena:</target>
+</phrase>
+<phrase>
+    <source>Discount By</source>
+    <target>Popust na osnovu:</target>
+</phrase>
+<phrase>
+    <source>Price per </source>
+    <target>Cijena po:</target>
+</phrase>
+<phrase>
+    <source>Co-Product</source>
+    <target>Nus Proizvod</target>
+</phrase>
+<phrase>
+    <source>Delete Item</source>
+    <target>Briši artikal</target>
+</phrase>
+<phrase>
+    <source>All Item Types</source>
+    <target>Sve vrste </target>
+</phrase>
+<phrase>
+    <source>Buy Items</source>
+    <target>Kupljeni</target>
+</phrase>
+<phrase>
+    <source>Make Items</source>
+    <target>Proizvedeni</target>
+</phrase>
+<phrase>
+    <source>Sold Items</source>
+    <target>Prodani</target>
+</phrase>
+<phrase>
+    <source>Location</source>
+    <target>Lokacija</target>
+</phrase>
+<phrase>
+    <source>Allowed</source>
+    <target>Dopušteno</target>
+</phrase>
+<phrase>
+    <source>Cannot Save Item Site</source>
+    <target>Ne mogu spasiti artikal</target>
+</phrase>
+<phrase>
+    <source>Assign Lot Numbers</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Item Site</source>
+    <target>Org. jed.</target>
+</phrase>
+<phrase>
+    <source>Order &amp;Up To:</source>
+    <target>Naruči do:</target>
+</phrase>
+<phrase>
+    <source>Minimum Order:</source>
+    <target>Minimalna narudžba:</target>
+</phrase>
+<phrase>
+    <source>Maximum Order:</source>
+    <target>Maksimalna narudžba:</target>
+</phrase>
+<phrase>
+    <source>Delete Inventory Detail Records?</source>
+    <target>Bobriši detalje stanja</target>
+</phrase>
+<phrase>
+    <source>&amp;Reorder Level:</source>
+    <target>Kritična zaliha</target>
+</phrase>
+<phrase>
+    <source>Order &amp;Multiple:</source>
+    <target>Min. nabavna količina</target>
+</phrase>
+<phrase>
+    <source>Enforce on Manual Orders</source>
+    <target>Forsiraj na manuelne nabavke</target>
+</phrase>
+<phrase>
+    <source>Safety Stock:</source>
+    <target>Obavezna zaliha</target>
+</phrase>
+<phrase>
+    <source>ABC Class:</source>
+    <target>ABC Klasa</target>
+</phrase>
+<phrase>
+    <source>Proportional</source>
+    <target>Proporcionalno</target>
+</phrase>
+<phrase>
+    <source>Automatic Lot/Serial Numbering</source>
+    <target>Automatska dodjela Lot/Serijskih br.</target>
+</phrase>
+<phrase>
+    <source>Sequence #:</source>
+    <target>Sekvenca #:</target>
+</phrase>
+<phrase>
+    <source>Average</source>
+    <target>Prosijek</target>
+</phrase>
+<phrase>
+    <source>Standard</source>
+    <target>Standardno</target>
+</phrase>
+<phrase>
+    <source>  &amp;Site:</source>
+    <target>Org. jed:</target>
+</phrase>
+<phrase>
+    <source>Search &amp;for:</source>
+    <target>Traži:</target>
+</phrase>
+<phrase>
+    <source>Qty Break</source>
+    <target>Kol. prag za popust</target>
+</phrase>
+<phrase>
+    <source>&amp;Prices</source>
+    <target>Cijene</target>
 </phrase>
 </QPH>
