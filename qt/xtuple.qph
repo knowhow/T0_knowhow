@@ -3234,4 +3234,220 @@ What would you like to do?</source>
     <source>Item is Sold</source>
     <target>Artikal je prodan</target>
 </phrase>
+<phrase>
+    <source>Pack Date:</source>
+    <target>Datum Pakiranja:</target>
+</phrase>
+<phrase>
+    <source>Ship-To #:</source>
+    <target>Isporuka na #:</target>
+</phrase>
+<phrase>
+    <source>Ship Via:</source>
+    <target>Isporuka putem:</target>
+</phrase>
+<phrase>
+    <source>Qty Ordered, UOM</source>
+    <target>Poručena količina, JMJ</target>
+</phrase>
+<phrase>
+    <source>Qty Ordered, UOM</source>
+    <target>Poručena količina, JMJ</target>
+</phrase>
+<phrase>
+    <source>Bill To:</source>
+    <target>Na teret:</target>
+</phrase>
+<phrase>
+    <source>Fax:</source>
+    <target>Fax:</target>
+</phrase>
+<phrase>
+    <source>Customer PO #:</source>
+    <target>Po narudžbi #:</target>
+</phrase>
+<phrase>
+    <source>Price, UOM</source>
+    <target>Cijena, JMJ</target>
+</phrase>
+<phrase>
+    <source>Phone:</source>
+    <target>Telefon:</target>
+</phrase>
+<phrase>
+    <source>Ship To:</source>
+    <target>Isporuka na:</target>
+</phrase>
+<phrase>
+    <source>Originated By:</source>
+    <target>Potiče od:</target>
+</phrase>
+<phrase>
+    <source>Item</source>
+    <target>Artikal</target>
+</phrase>
+<phrase>
+    <source>Site</source>
+    <target>PM</target>
+</phrase>
+<phrase>
+    <source>Sales Rep.:</source>
+    <target>Zastupnik.:</target>
+</phrase>
+<phrase>
+    <source>Option Description:</source>
+    <target>Opcija - opis</target>
+</phrase>
+<phrase>
+    <source>Options:</source>
+    <target>Opcije:</target>
+</phrase>
+<phrase>
+    <source>Additional Description:</source>
+    <target>Dodatni opis:</target>
+</phrase>
+<phrase>
+    <source>Tax:</source>
+    <target>Porez:</target>
+</phrase>
+<phrase>
+    <source>Freight:</source>
+    <target>Transport:</target>
+</phrase>
+<phrase>
+    <source>Misc. Charges:</source>
+    <target>Razni troškovi:</target>
+</phrase>
+<phrase>
+    <source>Note, this quotation is priced in:</source>
+    <target>Ova ponuda je u valuti:</target>
+</phrase>
+<phrase>
+    <source>Order Comments:</source>
+    <target>Komentari:</target>
+</phrase>
+<phrase>
+    <source>Order Comments:</source>
+    <target>Napomene:</target>
+</phrase>
+<phrase>
+    <source>Shipping Comments:</source>
+    <target>Napomene za isporuku</target>
+</phrase>
+<phrase>
+    <source>Quote Date:</source>
+    <target>Datum ponude:</target>
+</phrase>
+<phrase>
+    <source>Page:</source>
+    <target>Stranica:</target>
+</phrase>
+<phrase>
+    <source>Extended Price</source>
+    <target>Vrijednost</target>
+</phrase>
+<phrase>
+    <source>Line #</source>
+    <target>RB #</target>
+</phrase>
+<phrase>
+    <source>Phone:</source>
+    <target>Tel:</target>
+</phrase>
+<phrase>
+    <source>Carrier</source>
+    <target>Prevoznik</target>
+</phrase>
+<phrase>
+    <source>Qty. Shipped</source>
+    <target>Isporučena količina</target>
+</phrase>
+<phrase>
+    <source>Item Description</source>
+    <target>Opis artikla</target>
+</phrase>
+<phrase>
+    <source>Ext. Price</source>
+    <target>Vrijednost</target>
+</phrase>
+<phrase>
+    <source>Item Number</source>
+    <target>Broj Artikla</target>
+</phrase>
+<phrase>
+    <source>Serial #/Lot Information:</source>
+    <target>Serijski #/LOT informacije:</target>
+</phrase>
+<phrase>
+    <source>of</source>
+    <target>od</target>
+</phrase>
+<phrase>
+    <source>Pre-Allocated Credit</source>
+    <target>Pre-alocirani kredit</target>
+</phrase>
+<phrase>
+    <source>Page:</source>
+    <target>Str:</target>
+</phrase>
+<phrase>
+    <source>Prev. Applied</source>
+    <target>Iskorišteno</target>
+</phrase>
+<phrase>
+    <source>Shipment Details</source>
+    <target>Detalji isporuke</target>
+</phrase>
+<phrase>
+    <source>Tracking #</source>
+    <target>Broj za praćenje</target>
+</phrase>
+<phrase>
+    <source>Discount Date:</source>
+    <target>Popust do:</target>
+</phrase>
+<phrase>
+    <source>Bill To:</source>
+    <target>Na:</target>
+</phrase>
+<phrase>
+    <source>Attention:</source>
+    <target>Pažnja_</target>
+</phrase>
+<phrase>
+    <source>Batch #:</source>
+    <target>Seija #</target>
+</phrase>
+<phrase>
+    <source>Carton:</source>
+    <target>Kutija:</target>
+</phrase>
+<phrase>
+    <source>Checked By:</source>
+    <target>Provjerio:</target>
+</phrase>
+<phrase>
+    <source>Completed By:</source>
+    <target>Kompletirao:</target>
+</phrase>
+<phrase>
+    <source>Ordered</source>
+    <target>Naručio</target>
+</phrase>
+<phrase>
+    <source>Packed</source>
+    <target>Pakirao</target>
+</phrase>
+<phrase>
+    <source>Print Date: </source>
+    <target>Štampano:</target>
+</phrase>
+<phrase>
+    <source>Sales Order Acknowledgement</source>
+    <target>Odobrio:</target>
+</phrase>
+<phrase>
+    <source>Sched. Date:</source>
+    <target>Datum isporuke:</target>
+</phrase>
 </QPH>
