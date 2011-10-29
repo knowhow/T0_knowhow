@@ -12,7 +12,7 @@ Korisne komande
 
 `:pwd`  - prikaži tekući direktorij
 
-`:set ff=unix - setuj file format to unix 
+`:set ff=unix` - setuj file format to unix 
 
 ## normal mode
 
@@ -28,14 +28,8 @@ Korisne komande
 
 `<c-b>` - stranica nazad
 
-`<c-a>` - select all, mapirati "ggVG"
+`G` -  idi na kraj fajla
 
-<pre>
-~/.vimrc
-------------
-" select all
-nmap <c-a> ggVG
-</pre>
 
 ## INSERT mode
 
@@ -44,7 +38,7 @@ nmap <c-a> ggVG
 `<C+r>` - (:help i_CTRL-R) - kada smo u insert modu kucamo ctrl+r. Pojavi nam se `"` što je znak da vim čeka naš sljedeći znak:
 
 - `%` - naziv tekućeg fajla
-- `=` - mini kalkulator - unesite ctrl+r pa nakon toga =3*2.2
+- `=` - mini kalkulator - unesite ctrl+r pa nakon toga =6*2.2
 - `+` - clipboard sadržaj
 
 
@@ -65,6 +59,27 @@ http://www.catswhocode.com/blog/100-vim-commands-every-programmer-should-know
 - `gt` - show next tab
 - `:tabdo %s/foo/bar/g - execute find-replace komandu u svim tabovima
 - `:tab ball - stavi sve otvorene fajlove u tabove
+
+
+## Proizvoljne komande
+
+<pre>
+~/.vimrc
+------------
+" select all
+imap <c-a> <ESC>ggVG<CR>
+nmap h1  :r !cat ~/header_knowhow_erp_harbour.txt<CR>
+</pre>
+
+Kada ovo umetnemo u .vimrc dobijamo sljedece komande
+
+### insert mode: 
+
+* `<c-a>` - select all, mapirati "ggVG"
+
+### nomal mode:
+
+* h1 - umetni header http://redmine.bring.out.ba/issues/25045
 
 
 ## NERDTree
