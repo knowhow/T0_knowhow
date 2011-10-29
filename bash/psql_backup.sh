@@ -27,7 +27,9 @@ cd $BCKPDIR
 
 echo " PSQL dump........unesi $PSQLUSER PWD:"
 
-	 pg_dump  -h $PSQLHOST -U $PSQLUSER -W  $1   > $PSQLFILE 
+
+pg_dump --host $PSQLHOST --port 5432 --username $PSQLUSER --format custom --blobs --verbose  --file $PSQLFILE  $1
+
 
 echo " SQL dump zavrsen pakujem SQl dump ........"
 
