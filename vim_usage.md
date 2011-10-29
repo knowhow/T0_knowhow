@@ -67,9 +67,9 @@ http://www.catswhocode.com/blog/100-vim-commands-every-programmer-should-know
 ~/.vimrc
 ------------
 " select all
-imap <c-a> <ESC>ggVG<CR>
-nmap h1  :r !cat ~/header_knowhow_erp_harbour.txt<CR>gg1dd<INS>
-nmap dup <ESC>kvWyjP
+imap <c-a> &lt;ESC&gt;ggVG&lt;CR&gt;
+nmap h1  :r !cat ~/header_knowhow_erp_harbour.txt&lt;CR&gt;gg1dd&lt;INS&gt;
+nmap dup &lt;ESC&gt;kvWyjP
 </pre>
 
 Kada ovo umetnemo u .vimrc dobijamo sljedeće komande
