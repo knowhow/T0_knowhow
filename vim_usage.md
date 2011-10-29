@@ -75,7 +75,7 @@ Kada ovo umetnemo u .vimrc dobijamo sljedece komande
 
 ### insert mode: 
 
-* `<c-a>` - select all, mapirati "ggVG"
+* `<c-a>` - select all - odaber kompletan tekst u buffer-u od prve do zadnje linije (mapira "ggVG" set komandi izvršenih u normal modu)
 
 ### nomal mode:
 
