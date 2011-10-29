@@ -69,18 +69,19 @@ http://www.catswhocode.com/blog/100-vim-commands-every-programmer-should-know
 " select all
 imap <c-a> <ESC>ggVG<CR>
 nmap h1  :r !cat ~/header_knowhow_erp_harbour.txt<CR>
+nmap dup <ESC>kvWyjP
 </pre>
 
-Kada ovo umetnemo u .vimrc dobijamo sljedece komande
+Kada ovo umetnemo u .vimrc dobijamo sljedeće komande
 
 ### insert mode: 
 
 * `<c-a>` - select all - odaber kompletan tekst u buffer-u od prve do zadnje linije (mapira "ggVG" set komandi izvršenih u normal modu)
 
-### nomal mode:
+### normal mode:
 
 * h1 - umetni header http://redmine.bring.out.ba/issues/25045
-
+* dup - dupliciraj riječ iznad
 
 ## NERDTree
 
@@ -100,7 +101,6 @@ http://stackoverflow.com/questions/1002404/project-management-plugin-for-vim
 
 `:Bookmark proj1`
 `B` - kada smo u NERDTree kucamo za prikaz bookmark-a
-
 
 
 ## vimgrep
