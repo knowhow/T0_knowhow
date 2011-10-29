@@ -57,8 +57,8 @@ http://www.catswhocode.com/blog/100-vim-commands-every-programmer-should-know
 
 - `:tabnew` - new tab
 - `gt` - show next tab
-- `:tabdo %s/foo/bar/g - execute find-replace komandu u svim tabovima
-- `:tab ball - stavi sve otvorene fajlove u tabove
+- `:tabdo %s/foo/bar/g` - execute find-replace komandu u svim tabovima
+- `:tab ball` - stavi sve otvorene fajlove u tabove
 
 
 ## Proizvoljne komande
