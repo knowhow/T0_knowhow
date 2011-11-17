@@ -6,6 +6,7 @@ set HB_DOC_INSTALL=c:/harbour/doc
 set HB_INC_INSTALL=c:/harbour/include
 set HB_INSTALL_PREFIX=c:/harbour
 set HB_LIB_INSTALL=c:/harbour/lib
+set HB_DBG_PATH=C:\devel\src\F18_knowhow\pos;C:\devel\src\F18_knowhow\common;C:\devel\src\F18_knowhow\fin;C:\devel\src\F18_knowhow\kalk;C:\devel\src\F18_knowhow\fakt;C:\devel\src\F18_knowhow\os;C:\devel\src\F18_knowhow\ld;C:\devel\src\F18_knowhow\rnal;C:\devel\src\F18_knowhow\sii
 
 unset HB_INC_COMPILE
 
