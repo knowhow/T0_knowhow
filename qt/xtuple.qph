@@ -4222,4 +4222,192 @@ What would you like to do?</source>
     <source>E&amp;xit xTuple ERP...</source>
     <target>Izađi iz knowhow ERP-a</target>
 </phrase>
+<phrase>
+    <source>&amp;xChange online store</source>
+    <target>knowhow ERP online</target>
+</phrase>
+<phrase>
+    <source>Discussion &amp;Forums</source>
+    <target>Diskusije i Forumi</target>
+</phrase>
+<phrase>
+    <source>List Unposted Receipts</source>
+    <target>Lista neažuriranih primki</target>
+</phrase>
+<phrase>
+    <source>Issue to Shipping</source>
+    <target>Daj na isporuku</target>
+</phrase>
+<phrase>
+    <source>Issue to Shipping</source>
+    <target>Daj na isporuku</target>
+</phrase>
+<phrase>
+    <source>Search For Vendor</source>
+    <target>Pretraži dobavljače</target>
+</phrase>
+<phrase>
+    <source>Contact Name</source>
+    <target>Naziv</target>
+</phrase>
+<phrase>
+    <source>Contact Phone #</source>
+    <target>Telefon#</target>
+</phrase>
+<phrase>
+    <source>Contact Email </source>
+    <target>email</target>
+</phrase>
+<phrase>
+    <source>Search For Customer</source>
+    <target>Pretraži kupce</target>
+</phrase>
+<phrase>
+    <source>Search For Employee</source>
+    <target>Pretraži uposlenike</target>
+</phrase>
+<phrase>
+    <source>Search For Prospect</source>
+    <target>Pretraži potencijalne kupce</target>
+</phrase>
+<phrase>
+    <source>Search For Sales Rep</source>
+    <target>Pretraži zastupnike</target>
+</phrase>
+<phrase>
+    <source>Search For User</source>
+    <target>Pretraži korisnike</target>
+</phrase>
+<phrase>
+    <source>Search For Customer or Prospect</source>
+    <target>Pretraži kupce/potencijalne</target>
+</phrase>
+<phrase>
+    <source>Customer Number</source>
+    <target>Broj kupca</target>
+</phrase>
+<phrase>
+    <source>Customer Name</source>
+    <target>Naziv kupca</target>
+</phrase>
+<phrase>
+    <source>Billing Contact Name</source>
+    <target>Kontakt za plaćanje</target>
+</phrase>
+<phrase>
+    <source>Billing Contact Phone #</source>
+    <target>Telefon kontakta za plaćanje</target>
+</phrase>
+<phrase>
+    <source>Billing Contact Email</source>
+    <target>email kontakta za plaćanje</target>
+</phrase>
+<phrase>
+    <source>Billing Contact Address:</source>
+    <target>Asresa kontakta za plaćanje</target>
+</phrase>
+<phrase>
+    <source>Employee Code</source>
+    <target>Šifra uposlenika</target>
+</phrase>
+<phrase>
+    <source>Employee Number</source>
+    <target>Broj radnika</target>
+</phrase>
+<phrase>
+    <source>Contact Email</source>
+    <target>email</target>
+</phrase>
+<phrase>
+    <source>Contact Address:</source>
+    <target>Adresa</target>
+</phrase>
+<phrase>
+    <source>Username</source>
+    <target>Korisničko ime</target>
+</phrase>
+<phrase>
+    <source>Vendor Number</source>
+    <target>Broj dobavljača</target>
+</phrase>
+<phrase>
+    <source>Vendor Name</source>
+    <target>Naziv dobavljača</target>
+</phrase>
+<phrase>
+    <source>Main Address:</source>
+    <target>Glavna adresa</target>
+</phrase>
+<phrase>
+    <source>Public</source>
+    <target>javni</target>
+</phrase>
+<phrase>
+    <source>Title:</source>
+    <target>Naslov</target>
+</phrase>
+<phrase>
+    <source>Email:</source>
+    <target>email</target>
+</phrase>
+<phrase>
+    <source>Web:</source>
+    <target>Web:</target>
+</phrase>
+<phrase>
+    <source>&amp;Physical Inventory</source>
+    <target>Inventura</target>
+</phrase>
+<phrase>
+    <source>&amp;Create Count Tags</source>
+    <target>Kreiraj inventurne tagove</target>
+</phrase>
+<phrase>
+    <source>by &amp;Planner Code...</source>
+    <target>Po planskom kodu </target>
+</phrase>
+<phrase>
+    <source>by &amp;Item...</source>
+    <target>Po &amp;artiklu</target>
+</phrase>
+<phrase>
+    <source>Inventory Tools</source>
+    <target>Inventura</target>
+</phrase>
+<phrase>
+    <source>&amp;List Open...</source>
+    <target>&amp;Lista otvorenih</target>
+</phrase>
+<phrase>
+    <source>&amp;Maintain...</source>
+    <target>Održavanje</target>
+</phrase>
+<phrase>
+    <source>Transfer &amp;Order</source>
+    <target>Prebaci narudžbu</target>
+</phrase>
+<phrase>
+    <source>Manufacture Tools</source>
+    <target>Proizvodnja</target>
+</phrase>
+<phrase>
+    <source>&amp;Work Order</source>
+    <target>Radni nalog</target>
+</phrase>
+<phrase>
+    <source>&amp;Release...</source>
+    <target>Odobri</target>
+</phrase>
+<phrase>
+    <source>Change &amp;Quantity...</source>
+    <target>Promjeni količinu</target>
+</phrase>
+<phrase>
+    <source>&amp;Item...</source>
+    <target>&amp;Artikal</target>
+</phrase>
+<phrase>
+    <source>&amp;Scrap...</source>
+    <target>Otpad</target>
+</phrase>
 </QPH>
