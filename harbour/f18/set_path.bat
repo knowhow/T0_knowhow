@@ -1,11 +1,11 @@
 set HB_ARCHITECTURE=win
 set HB_COMPILER=mingw
 
-set HB_BIN_INSTALL=c:/harbour/bin
-set HB_DOC_INSTALL=c:/harbour/doc
-set HB_INC_INSTALL=c:/harbour/include
-set HB_INSTALL_PREFIX=c:/harbour
-set HB_LIB_INSTALL=c:/harbour/lib
+set HB_BIN_INSTALL=c:\harbour\bin
+set HB_DOC_INSTALL=c:\harbour\doc
+set HB_INC_INSTALL=c:\harbour\include
+set HB_INSTALL_PREFIX=c:\harbour
+set HB_LIB_INSTALL=c:\harbour\lib
 set HB_DBG_PATH=C:\devel\src\F18_knowhow\pos;C:\devel\src\F18_knowhow\common;C:\devel\src\F18_knowhow\fin;C:\devel\src\F18_knowhow\kalk;C:\devel\src\F18_knowhow\fakt;C:\devel\src\F18_knowhow\os;C:\devel\src\F18_knowhow\ld;C:\devel\src\F18_knowhow\rnal;C:\devel\src\F18_knowhow\sii
 
 unset HB_INC_COMPILE
@@ -20,7 +20,7 @@ rem set Path=C:\Qt\4.7.4\mingw\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Prog\git\bi
 set TMP=c:\tmp
 set TEMP=c:\tmp
 
-set Path=C:\vala-0.8.1\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Prog\git\bin
+set Path=C:\vala-0.8.1\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Prog\git\bin;C:\Program Files\Vim\vim72
 set PATH=%PATH%;%HB_BIN_PGSQL%
 rem set PATH=%PATH%;C:\Program Files\CMake 2.6\bin
 
