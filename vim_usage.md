@@ -265,6 +265,11 @@ izbroj sve pagrafe, pri čemu su paragrafi odijeljeni jedan od drugog sa jednom 
 :exe 'r !coffee -t '.c_file (izvrsi komandu 'r !coffee -t test.coffee' - učitaj u tekući buffer output ove eksterne komande)
 ```  
 
+http://redmine.bring.out.ba/issues/25313
+```
+:exe '!ptxt ' . substitute(@%, '.conv.txt', '', 'y') . ' /p'
+```
+
 ### MRU plugin
 
 Most recently used - nedavno korišteni fajlovi
@@ -276,4 +281,7 @@ Most recently used - nedavno korišteni fajlovi
 http://vim.wikia.com/wiki/Search_across_multiple_lines
 
 ```/abc\_s*def/```- nađi sve "abc" iza kojih slijede nove linije ili razmaci a onda "def"
+
+
+
 
