@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cp $1 ~/.wine/drive_c/outf.txt 
+WINEDEBUG=fixme-all LC_ALL=sl_SI.UTF-8 wine c:\\ptxt.exe c:\\outf.txt $2 $3 $4
