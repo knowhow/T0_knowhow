@@ -1,5 +1,5 @@
 #!/bin/bash
-# ver 0.4.0
+# ver 0.4.5
 # bjasko@bring.out.ba, hernad@bring.out.ba
 # 07.12.2011
 # pozvi ./psql_restore.sh [hostname] [username] [dbname]  [filename]
@@ -24,9 +24,10 @@ echo ""
 echo "untarujem $BCKPDIR/$BACK_FILE"
 echo ""
 
-
+CURDIR=`pwd`
+cd $BCKPDIR
 tar xvfz $BACK_FILE 
-
+cd $CURDIR
 
 echo " PSQL restore........unesi $PSQLUSER PWD:"
 
