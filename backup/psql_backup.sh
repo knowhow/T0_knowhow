@@ -1,7 +1,7 @@
 #!/bin/bash
-# ver 0.1
+# ver 0.2
 # bjasko@bring.out.ba 
-# 29.10.2011
+# 07.12.2011
 # pozvi ./psql_backup.sh  [hostname] [username] [dbname]  [filename]
 #############################
 BCKPDIR="backup/psql_dump"
