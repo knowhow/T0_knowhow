@@ -2,13 +2,13 @@
 # ver 0.1
 # bjasko@bring.out.ba 
 # 29.10.2011
-# pozvi ./psql_backup.sh [dbname]  [filename]
+# pozvi ./psql_backup.sh  [hostname] [username] [dbname]  [filename]
 #############################
 BCKPDIR="backup/psql_dump"
-PSQLHOST="knowhow-erp.bring.out.ba"
-PSQLUSER="admin"
-PSQLFILE="$2.sql"
-BACK_FILE="$2.tar.gz"
+PSQLHOST="$1"
+PSQLUSER="$2"
+PSQLFILE="$4.sql"
+BACK_FILE="$4.tar.gz"
 #############################
 
 echo ""
@@ -28,7 +28,7 @@ cd $BCKPDIR
 echo " PSQL dump........unesi $PSQLUSER PWD:"
 
 
-pg_dump --host $PSQLHOST --port 5432 --username $PSQLUSER --format custom --blobs --verbose  --file $PSQLFILE  $1
+pg_dump --host $PSQLHOST --port 5432 --username $PSQLUSER --format custom --blobs --verbose  --file $PSQLFILE  $3
 
 
 echo " SQL dump zavrsen pakujem SQl dump ........"
