@@ -1,0 +1,14 @@
+set guifont=Monaco:h14
+set lines=34
+
+if has("gui_macvim")
+    macmenu &File.New\ Tab key=<nop>
+    map <D-t> :CommandT<CR>
+endif
+
+" http://newbiedoc.sourceforge.net/tutorials/vim/example-vim.html.en
+" map! ,h1 <h1></h1><ESC>2ba
+" map tv :echo 'Tekuće vrijeme je ' . strftime('%c')<CR>
+
+
+
