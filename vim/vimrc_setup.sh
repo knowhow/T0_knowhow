@@ -9,7 +9,8 @@ sudo apt-get install curl perl vim vim-gtk git-core wget
 
 # install 
 git clone https://github.com/hernad/dotVim |  cd dotVim 
-cp -a  * ~/.vim | ./git_update.sh 
+./git_update.sh 
+cp -a  * ~/.vim 
 cd ..
 wget https://github.com/knowhow/T0_knowhow/raw/master/vim/_vimrc
 wget https://github.com/knowhow/T0_knowhow/raw/master/vim/_gvimrc
