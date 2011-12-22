@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# mac - mvim
+
+# iconv na mac-u: brew install icon
+
+cat $1 | sed 's/#%.*#//g' | iconv -c -f IBM852 -t UTF-8 > $1.conv.txt
+
+export BANG=\!  
+mvim -c "nmap <C-P> :exe '$BANG ptxt ' . substitute(@%, '.conv.txt', '', 'y') . ' /p'<CR>" $1.conv.txt

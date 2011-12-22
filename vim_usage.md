@@ -12,7 +12,7 @@ Korisne komande
 
 `:pwd`  - prikaži tekući direktorij
 
-`:set ff=unix - setuj file format to unix 
+`:set ff=unix` - setuj file format to unix 
 
 ## normal mode
 
@@ -28,14 +28,8 @@ Korisne komande
 
 `<c-b>` - stranica nazad
 
-`<c-a>` - select all, mapirati "ggVG"
+`G` -  idi na kraj fajla
 
-<pre>
-~/.vimrc
-------------
-" select all
-nmap <c-a> ggVG
-</pre>
 
 ## INSERT mode
 
@@ -44,7 +38,7 @@ nmap <c-a> ggVG
 `<C+r>` - (:help i_CTRL-R) - kada smo u insert modu kucamo ctrl+r. Pojavi nam se `"` što je znak da vim čeka naš sljedeći znak:
 
 - `%` - naziv tekućeg fajla
-- `=` - mini kalkulator - unesite ctrl+r pa nakon toga =3*2.2
+- `=` - mini kalkulator - unesite ctrl+r pa nakon toga =6*2.2
 - `+` - clipboard sadržaj
 
 
@@ -63,9 +57,31 @@ http://www.catswhocode.com/blog/100-vim-commands-every-programmer-should-know
 
 - `:tabnew` - new tab
 - `gt` - show next tab
-- `:tabdo %s/foo/bar/g - execute find-replace komandu u svim tabovima
-- `:tab ball - stavi sve otvorene fajlove u tabove
+- `:tabdo %s/foo/bar/g` - execute find-replace komandu u svim tabovima
+- `:tab ball` - stavi sve otvorene fajlove u tabove
 
+
+## Proizvoljne komande
+
+<pre>
+~/.vimrc
+------------
+" select all
+imap <c-a> &lt;ESC&gt;ggVG&lt;CR&gt;
+nmap h1  :r !cat ~/header_knowhow_erp_harbour.txt&lt;CR&gt;gg1dd&lt;INS&gt;
+nmap dup &lt;ESC&gt;kvWyjP
+</pre>
+
+Kada ovo umetnemo u .vimrc dobijamo sljedeće komande
+
+### insert mode: 
+
+* `<c-a>` - select all - odaber kompletan tekst u buffer-u od prve do zadnje linije (mapira "ggVG" set komandi izvršenih u normal modu)
+
+### normal mode:
+
+* h1 - umetni header http://redmine.bring.out.ba/issues/25045
+* dup - dupliciraj riječ iznad
 
 ## NERDTree
 
@@ -85,7 +101,6 @@ http://stackoverflow.com/questions/1002404/project-management-plugin-for-vim
 
 `:Bookmark proj1`
 `B` - kada smo u NERDTree kucamo za prikaz bookmark-a
-
 
 
 ## vimgrep
@@ -250,6 +265,11 @@ izbroj sve pagrafe, pri čemu su paragrafi odijeljeni jedan od drugog sa jednom 
 :exe 'r !coffee -t '.c_file (izvrsi komandu 'r !coffee -t test.coffee' - učitaj u tekući buffer output ove eksterne komande)
 ```  
 
+http://redmine.bring.out.ba/issues/25313
+```
+:exe '!ptxt ' . substitute(@%, '.conv.txt', '', 'y') . ' /p'
+```
+
 ### MRU plugin
 
 Most recently used - nedavno korišteni fajlovi
@@ -261,4 +281,7 @@ Most recently used - nedavno korišteni fajlovi
 http://vim.wikia.com/wiki/Search_across_multiple_lines
 
 ```/abc\_s*def/```- nađi sve "abc" iza kojih slijede nove linije ili razmaci a onda "def"
+
+
+
 

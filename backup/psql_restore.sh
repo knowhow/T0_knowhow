@@ -1,6 +1,6 @@
 #!/bin/bash
-# ver 0.3
-# bjasko@bring.out.ba 
+# ver 0.4.5
+# bjasko@bring.out.ba, hernad@bring.out.ba
 # 07.12.2011
 # pozvi ./psql_restore.sh [hostname] [username] [dbname]  [filename]
 #############################
@@ -20,25 +20,22 @@ else
 fi
  
 
+echo ""
+echo "untarujem $BCKPDIR/$BACK_FILE"
+echo ""
+
+CURDIR=`pwd`
 cd $BCKPDIR
-
-echo ""
-echo "raspakiram tgz"
-echo ""
-
-
 tar xvfz $BACK_FILE 
-
+cd $CURDIR
 
 echo " PSQL restore........unesi $PSQLUSER PWD:"
 
 
-pg_restore --host $PSQLHOST --username $PSQLUSER -W --dbname="$3"  $PSQLFILE 
+pg_restore --host $PSQLHOST --username $PSQLUSER -W --dbname="$3"  $BCKPDIR/$PSQLFILE 
 
 
 echo " Restore iz dumpa  $BACKFILE u $1 $3 zavrsen ........"
 rm $BCKPDIR/$PSQLFILE
 
 exit 0
-
-
