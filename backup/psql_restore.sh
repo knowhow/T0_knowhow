@@ -27,7 +27,7 @@ echo ""
 CURDIR=`pwd`
 cd $BCKPDIR
 tar xvfz $BACK_FILE 
-cd $CURDIR
+cd "$CURDIR"
 
 echo " PSQL restore........unesi $PSQLUSER PWD:"
 
