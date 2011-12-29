@@ -7,7 +7,7 @@ echo ===========================================================================
 set hostname=localhost
 set pgusername=admin
 set PGPASSWORD=admin
-set pgdbname=bringout_test
+set pgdbname=f18_empty
 set orgname=rudnik1
 for /f "tokens=1-4 delims=/ " %%i in ("%date%") do (
      set dow=%%i
@@ -15,10 +15,11 @@ for /f "tokens=1-4 delims=/ " %%i in ("%date%") do (
      set day=%%k
      set year=%%l
  )
-set datestr=%month%_%day%_%year%
+set datestr=%year%%month%%day%
+
 echo datestr is %datestr%
     
-set backup_file=%orgname%_%datestr%.backup
+set backup_file=%orgname%_%pgdbname%_%datestr%.backup
 echo backup je  %backup_file%
 echo on
 pg_dump -i -h %hostname%  -p 5432 -U %pgusername% -F c -b -v -f %backup_file%  %pgdbname%
