@@ -11,6 +11,7 @@ PSQLFILE="$4.sql"
 BACK_FILE="$4.tar.gz"
 #############################
 
+echo prebaceno u serviserski toolset ! brisati
 
 
 if [ -d $BCKPDIR ]; then

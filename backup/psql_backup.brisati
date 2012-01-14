@@ -11,6 +11,9 @@ PSQLFILE="$4.sql"
 BACK_FILE="$4.tar.gz"
 #############################
 
+echo ovo je prebaceno u serviserski toolset
+
+
 echo ""
 echo "pravim dump"
 echo ""
