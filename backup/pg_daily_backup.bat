@@ -9,6 +9,7 @@ set pgusername=admin
 set PGPASSWORD=admin
 set pgdbname=f18_empty
 set orgname=rudnik1
+ping -n 4 8.8.8.8
 for /f "tokens=1-4 delims=/ " %%i in ("%date%") do (
      set dow=%%i
      set month=%%j
