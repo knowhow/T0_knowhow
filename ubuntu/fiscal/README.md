@@ -1,4 +1,6 @@
-= FPrint wine, XVfb =
+# ubuntu host fiskalne komande
+
+## FPrint neosoft
 
 root@malisa:~# /usr/local/sbin/fprint.sh start
 <pre>
