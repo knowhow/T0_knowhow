@@ -41,7 +41,7 @@ status:
 FPrint not started !
 </pre>
 
-## ubuntu-32 lucid 10.04
+### ubuntu-32 lucid 10.04
 
 root@malisa:~# uname -a
 <pre>
