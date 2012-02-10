@@ -1,21 +1,7 @@
 #!/bin/bash
 
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-
-# You should have received a copy of the GNU General Public License
-# along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
-
 AUTHOR=hernad@bring.out
-VER=0.9.9
+VER=1.0.0
 DATE=10.02.2012
 
 echo $AUTHOR,  $VER, $DATE
@@ -23,6 +9,8 @@ echo $AUTHOR,  $VER, $DATE
 
 USER=bringout
 EXE_PATH="C:\\Program Files\\Datecs Applications\\FPrint WIN\\FPrint.exe"
+FISC_DIR=/home/$USER/.wine/drive_c/fiscal
+
 PATH=/usr/bin:/usr/sbin:/bin:/usr/local/sbin:/usr/local/bin
 
 
@@ -72,18 +60,32 @@ fi
 status() {
 
 echo "status:"
-echo "--------------------"
+echo "---------------------------------------------------------------"
 
 ps ax | grep "Xvfb" | grep -v "grep"
 ps ax | grep "FPrint" | grep  -v "grep"
+ps ax | grep "smbd" | grep  -v "grep"
 
+echo " "
+echo " "
+echo "fiscal root dir $FISC_DIR:"
+echo "---------------------------------------------------------------"
+ls -l  $FISC_DIR
+echo " "
+echo " "
+echo "fiscal answer dir $FISC_DIR/answer:"
+echo "---------------------------------------------------------------"
+ls -l  $FISC_DIR/answer
+echo " "
+echo " "
 
 let CNT=`ps ax | grep "Xvfb" | grep -c -v "grep"`
 let CNT=CNT+`ps ax | grep "FPrint" | grep  -c -v "grep"`
+let CNT=CNT+`ps ax | grep "smbd" | grep  -c -v "grep"`
 
-if [ $CNT -eq 2 ]
+if [ $CNT -gt 2 ]
 then
-  echo "FPrint wine app status OK"
+  echo "FPrint wine app status OK, cnt = $CNT"
   exit 0
 else
   echo "FPrint not started !"

@@ -15,12 +15,30 @@ run: su - bringout -c wine 'C:\Program Files\Datecs Applications\FPrint WIN\FPri
 
 root@malisa:~# /usr/local/sbin/fprint.sh status
 <pre>
-hernad@bring.out, 0.9.9, 10.02.2012
+hernad@bring.out, 1.0.0, 10.02.2012
 status:
---------------------
- 3962 pts/0    S      0:03 Xvfb :101 -ac
- 3966 pts/0    S      0:02 C:\Program Files\Datecs Applications\FPrint WIN\FPrint.exe                                      
-FPrint wine app status OK
+---------------------------------------------------------------
+ 4273 pts/0    S      0:04 Xvfb :101 -ac
+ 4277 pts/0    S      0:05 C:\Program Files\Datecs Applications\FPrint WIN\FPrint.exe                                      
+  645 ?        Ss     0:00 smbd -F
+  719 ?        S      0:00 smbd -F
+  842 ?        S      0:00 smbd -F
+ 1209 ?        S      0:00 smbd -F
+ 
+ 
+fiscal root dir /home/bringout/.wine/drive_c/fiscal:
+---------------------------------------------------------------
+ukupno 4
+drwxr-xr-x 2 bringout bringout 4096 2012-02-10 14:33 answer
+ 
+ 
+fiscal answer dir /home/bringout/.wine/drive_c/fiscal/answer:
+---------------------------------------------------------------
+ukupno 4
+-rw-r--r-- 1 bringout bringout 102 2012-02-10 14:33 b3.txt
+ 
+ 
+FPrint wine app status OK, cnt = 6                                   
 </pre>
 
 
