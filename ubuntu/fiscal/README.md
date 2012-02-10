@@ -1,4 +1,4 @@
-# ubuntu host fiskalne komande
+# ubuntu host podrška fiskalnim uređajima
 
 ## FPrint neosoft
 
@@ -41,4 +41,18 @@ status:
 FPrint not started !
 </pre>
 
+## ubuntu-32 lucid 10.04
+
+root@malisa:~# uname -a
+<pre>
+Linux malisa 2.6.32-21-generic #32-Ubuntu SMP Fri Apr 16 08:10:02 UTC 2010 i686 GNU/Linux
+</pre>
+
+root@malisa:~# lsb_release -a
+<pre>
+Distributor ID: Ubuntu
+Description:    Ubuntu 10.04 LTS
+Release:    10.04
+Codename:   lucid
+</pre>
 
