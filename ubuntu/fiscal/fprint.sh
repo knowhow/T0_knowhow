@@ -1,7 +1,7 @@
 #!/bin/bash
 
 AUTHOR=hernad@bring.out
-VER=1.0.1
+VER=1.0.2
 DATE=14.02.2012
 
 echo $AUTHOR,  $VER, $DATE
@@ -68,12 +68,12 @@ status
 
 status() {
 
-echo "status:"
+echo "required process status:"
 echo "---------------------------------------------------------------"
 
 ps ax | grep "Xvfb" | grep -v "grep"
 ps ax | grep "FPrint" | grep  -v "grep"
-ps ax | grep "smbd" | grep  -v "grep"
+ps ax | grep "smbd" | grep  -v "grep" | grep Ss 
 
 echo " "
 echo " "
@@ -90,11 +90,19 @@ echo " "
 
 let CNT=`ps ax | grep "Xvfb" | grep -c -v "grep"`
 let CNT=CNT+`ps ax | grep "FPrint" | grep  -c -v "grep"`
-let CNT=CNT+`ps ax | grep "smbd" | grep  -c -v "grep"`
+let CNT=CNT+`ps ax | grep "smbd"| grep Ss | grep  -c -v "grep"`
 
-if [ $CNT -gt 2 ]
+if [ $CNT = 3 ]
 then
+  echo "" 
+  echo "" 
+  echo "" 
+  echo "" 
   echo "FPrint wine app status OK, cnt = $CNT"
+  echo "" 
+  echo "" 
+  echo "" 
+  echo "" 
   exit 0
 else
   echo "FPrint not started !"
