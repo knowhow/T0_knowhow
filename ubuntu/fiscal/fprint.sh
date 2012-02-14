@@ -1,8 +1,8 @@
 #!/bin/bash
 
 AUTHOR=hernad@bring.out
-VER=1.0.0
-DATE=10.02.2012
+VER=1.0.1
+DATE=14.02.2012
 
 echo $AUTHOR,  $VER, $DATE
 
@@ -43,17 +43,26 @@ stop () {
 echo ubijam sve Xvfb procese i njihove aplikacije
 killall wine
 killall Xvfb
+killall FPrint.exe
 
 CNT=`ps ax | grep "FPrint" | grep -c -v "grep"`
 
 if [ $CNT -eq 0 ]
 then
   echo "uspjesno ubijen Xvfb ... bye ..."
-  exit 0
+  
 else
   echo "CNT proces Xvfb = $CNT ?!"
-  exit -1
+  
 fi
+
+}
+
+restart () {
+
+stop 
+start 
+status
 
 }
 
@@ -117,6 +126,10 @@ case "$1" in
 
       status 
       ;;
-
+   restart )
+      
+      restart 
+      ;;
+    
 esac
 
