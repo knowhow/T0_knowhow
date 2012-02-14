@@ -16,7 +16,7 @@ PATH=/usr/bin:/usr/sbin:/bin:/usr/local/sbin:/usr/local/bin
 
 usage () 
 {
-  echo usage: $0 start ili stop
+  echo usage: $0 start, stop, restart,  status 
 }
 
 
