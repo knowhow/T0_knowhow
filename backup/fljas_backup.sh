@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # ver 1.0
 # bjasko@bring.out.ba
 # backupi idu u  /var/backups/vp/
@@ -11,6 +11,7 @@ mkdir -p $DEST
 
 #system settings 
 tar cfvz  $DEST/network.tar.gz   /etc/NetworkManager/
+tar cfvz  $DEST/vpn.tar.gz   /etc/openvpn/
 cp -a /etc/hosts  $DEST
 cp -a /etc/hostname $DEST 
 cp -a /etc/rc.local $DEST 
