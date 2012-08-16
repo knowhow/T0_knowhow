@@ -35,7 +35,7 @@ DB=$(psql -lt | egrep -v 'template[01]' | egrep -v 'postgres' | awk '{print $1}'
 backup () {
 for d in $DB 
          do 
-         pg_dump   $d  | gzip -c > /tmp/$B_DATE.$d.sql.gz
+         pg_dump -h $PGHOSTADDR -U $PGUSER  $d  | gzip -c > /tmp/$B_DATE.$d.sql.gz
          echo "backup baze $d je završen, idem dalje"
 done
 }
