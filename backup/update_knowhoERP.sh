@@ -8,8 +8,9 @@ B_DATE=`date "+%d_%m_%Y_%H_%M"`
 ARGS=5
 BADARGS=85
 PGPASSWORD="$5"
-PGHOSTADDR="$1"
 PGUSER="$4"
+PGHOSTADDR="$1"
+export PGPASSWORD PGUSER 
 # check args
 
 if [ $# -lt  "$ARGS" ];then
@@ -28,14 +29,14 @@ if [ $# =  "$ARGS" ];then
 fi
 
 # DB list 
-DB=$(psql -lt | egrep -v 'template[01]' | egrep -v 'postgres' | awk '{print $1}')
+DB=$(psql -lt -h $1 | egrep -v 'template[01]' | egrep -v 'postgres' | awk '{print $1}')
 
 # napravi backup  prije update-a baze u /tmp 
 
 backup () {
 for d in $DB 
          do 
-         pg_dump -h $PGHOSTADDR -U $PGUSER  $d  | gzip -c > /tmp/$B_DATE.$d.sql.gz
+         pg_dump -h $PGHOSTADDR  $d  | gzip -c > /tmp/$B_DATE.$d.sql.gz
          echo "backup baze $d je završen, idem dalje"
 done
 }
