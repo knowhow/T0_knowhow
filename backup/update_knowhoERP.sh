@@ -45,7 +45,7 @@ $6
 for d in $DB
 
 	do
-  	updater -databaseURL=//$1:$2/$d -username=$4 -passwd=$5 -file=$3 -autorun
+  	knowhowERP_package_updater -databaseURL=//$1:$2/$d -username=$4 -passwd=$5 -file=$3 -autorun
         echo "update baze $d gotov, idem dalje...." 
 done 
 
