@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 2.2.1 on 2012-08-28 at 16:29 (GMT+02:00)-->
+<!--Last edited by Ukelele version 2.2.1 on 2012-08-28 at 17:03 (GMT+02:00)-->
 <keyboard group="0" id="14242" name="Bosnian" maxout="2">
     <layouts>
         <layout first="0" last="1" modifiers="4c" mapSet="154"/>
@@ -386,8 +386,8 @@
             <key code="4" action="5"/>
             <key code="5" output="]"/>
             <key code="6" output="Ω"/>
-            <key code="7" output="≈"/>
-            <key code="8" output="ç"/>
+            <key code="7" output="["/>
+            <key code="8" output="]"/>
             <key code="9" output="@"/>
             <key code="10" output="‹"/>
             <key code="11" output="{"/>
@@ -833,8 +833,8 @@
             <key code="4" output="&#x0008;"/>
             <key code="5" output="&#x0007;"/>
             <key code="6" output="&#x001A;"/>
-            <key code="7" output="&#x0018;"/>
-            <key code="8" output="&#x0003;"/>
+            <key code="7" output="{"/>
+            <key code="8" output="}"/>
             <key code="9" output="&#x0016;"/>
             <key code="10" output="0"/>
             <key code="11" output="&#x0002;"/>
