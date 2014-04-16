@@ -8,7 +8,7 @@ local_dir="/var/lib/vz/files/"
 remote_dir="/nas_backup/files/redmine/"
 
 
-redmine_files=$(rsync --log-file=/tmp/redmine_files_rsync.log -avz --delete  $local_dir   $remote_dir)
+redmine_files=$(rsync --log-file=/tmp/redmine_files_rsync.log -avz  --no-owner --no-group  --no-perms --delete  $local_dir   $remote_dir)
 if [ $? -eq 0 ]; then  
     echo success  
 else  
