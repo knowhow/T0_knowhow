@@ -1,7 +1,7 @@
 #!/bin/bash
-# ver 0.1.1
+# ver 0.2.1
 # bjasko@bring.out.ba
-# 15.05.2012
+# 23.05.2014
 # run as root, B_DIRs must be owned by postgres user
 
 B_DIR=/var/backups/knowhowERP
@@ -50,7 +50,7 @@ done
 } 
 
 
-backup_arhiva   () {
+backup_arhiva_sve   () {
 # 1st day of the month, archive backup 
 DAY=`date +%d`
 
@@ -62,14 +62,25 @@ fi
 
 }
 
-backup_server  () {
-# 15th day of the month, full dump  
+
+backup_arhiva_tekuca () {
+# 1st day of the month, archive backup
 DAY=`date +%d`
 
-if [ $DAY = 15 ]
+if [ $DAY = 30 ]
         then
-        su - postgres  -c "/usr/bin/pg_dumpall | gzip -c > $B_ALL/$B_DATE.all.sql.gz" 
+        find $B_DIR/*.gz  -mtime -1 \! -type d  -exec cp -a {} $B_ARH \;
+
 fi
+
+}
+
+
+
+backup_servera  () {
+
+  su - postgres  -c "/usr/bin/pg_dumpall | gzip -c > $B_ALL/$B_DATE.all.sql.gz" 
+
 
 } 
 
@@ -90,14 +101,28 @@ find $B_DIR/*.gz -mtime +30 -exec rm {} \;
 }
 
 
+remote_backup_sync  () {
+ 
+USR=""
+HOST=""
+REMOTE=""
+
+ for r in $REMOTE
+       do
+       cd $B_DIR
+       rsync -av . $USR@$HOST:$REMOTE
+ done
+
+}
+
+
 
 
 if [ "$1" = "tekuca" ];
 then
     echo "tekuca backup"
     backup_tekuca
-    backup_arhiva
-    backup_server
+    backup_arhiva_tekuca
     cisti_backup_tekuca
     exit
 fi
@@ -108,26 +133,23 @@ then
     echo "backup svega"
     backup_sve
     backup_arhiva
-    backup_server
+    backup_arhiva_sve
     cisti_backup_sve
-    exit
-else
-    echo "argument ne valja koristi tekuca ili sve"
     exit
 fi
 
+if [ "$1" = "server" ];
+then
+    echo "server backup"
+    backup_servera
+    exit
 
 
 
-# uncomment 2 rsync copy to remote  hosts
-# ssh pwdless needed 
-# USR=""
-# HOST=""
-# REMOTE=""
-# for r in $REMOTE 
-#       do 
-#       cd $B_DIR
-#       rsync -av . $USR@$HOST:$REMOTE
-# done 
+else
+    echo "argument ne valja koristi tekuca, sve ili server"
+    exit
+
+fi
 
 exit
